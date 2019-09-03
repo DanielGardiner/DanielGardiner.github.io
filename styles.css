@@ -9,13 +9,15 @@ body {
 
 header {
   width: 100%;
-  position: relative;
 }
 
 header .container {
+  margin: 30px auto;
+  width: 40%;
   display: flex;
   justify-content: center;
-  position: absolute;
+  justify-content: space-between;
+  /* position: absolute; */
   top: 0;
 }
 
@@ -25,4 +27,7 @@ header .container .links {
 
 .landing-panel h1 {
   margin: 0;
+}
+.landing-panel .container {
+  text-align: center;
 }
