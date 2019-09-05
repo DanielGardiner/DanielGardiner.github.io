@@ -55,7 +55,7 @@ header a:hover {
 /* landing panel */
 
 .landing-panel {
-  background-image: url("./media/nature-3616194_1920.jpg");
+  background-image: url("./media/john-westrock-PDfe7H5GJR0-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -63,14 +63,14 @@ header a:hover {
 .landing-panel h1 {
   margin: 0;
   font-size: 3rem;
-  color: rgb(221, 221, 221);
+  color: rgb(77, 77, 77);
   font-weight: lighter;
 }
 
 .landing-panel h2 {
   margin: 0;
   font-size: 2rem;
-  color: rgb(228, 228, 228);
+  color: rgb(77, 77, 77);
   font-weight: lighter;
 }
 
@@ -126,6 +126,10 @@ header a:hover {
   justify-content: space-evenly;
 }
 
+.project-panel .heading {
+  text-align: center;
+}
+
 @media (max-width: 650px) {
   .project-layout {
     display: block;
@@ -133,10 +137,6 @@ header a:hover {
 
   .project-item {
     width: 100%;
-  }
-
-  .project-panel .heading {
-    text-align: center;
   }
 }
 
@@ -202,8 +202,13 @@ footer {
 }
 
 footer .container {
+  height: 60px;
   display: flex;
   justify-content: space-between;
   width: 70%;
   margin: 0 auto;
+}
+
+footer p {
+  padding-top: 30px;
 }
