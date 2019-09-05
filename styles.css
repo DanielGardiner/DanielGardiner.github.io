@@ -5,6 +5,7 @@
 body {
   font-size: 62.5%;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* header */
@@ -41,20 +42,32 @@ header a:hover {
 
 /* landing panel */
 
+.landing-panel {
+  background-image: url("./media/nature-3616194_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .landing-panel h1 {
   margin: 0;
   font-size: 3rem;
+  color: rgb(221, 221, 221);
+  font-weight: lighter;
 }
 
 .landing-panel h2 {
   margin: 0;
   font-size: 2rem;
+  color: rgb(228, 228, 228);
+  font-weight: lighter;
 }
 
 .landing-panel .container {
   text-align: center;
   width: 50%;
   margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 600px;
 }
 
 /* project panel */
@@ -73,12 +86,16 @@ header a:hover {
   width: 33.3%;
 }
 
-.project-panel h3 {
+.project-panel h6 {
   text-align: center;
+  font-size: 0.8rem;
+  margin-top: 3px;
+  margin-bottom: 7px;
 }
 
 .project-panel .language {
   display: flex;
+  justify-content: space-evenly;
 }
 
 /* about me */
@@ -88,9 +105,51 @@ header a:hover {
   width: 70%;
 }
 
+.about-me h3 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
 /* hire me */
 
 .hire-me .container {
   margin: 0 auto;
   width: 70%;
+}
+
+.hire-me h3 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.hire-me-layout {
+  display: flex;
+}
+
+.hire-item {
+  width: 25%;
+}
+
+.hire-item img {
+  width: 20%;
+  margin: 0 auto;
+  display: block;
+}
+
+.hire-item p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(180, 180, 180);
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
 }
