@@ -253,6 +253,13 @@ header a:hover {
   text-align: center;
 }
 
+.about-me p {
+  font-size: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
 /* hire me */
 
 .hire-me .container {
