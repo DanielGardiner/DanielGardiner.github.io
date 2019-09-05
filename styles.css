@@ -10,34 +10,24 @@ body {
 
 /* header */
 
-header {
-  width: 100%;
-}
-
 header .container {
   margin: 30px auto;
   width: 40%;
   display: flex;
-  justify-content: center;
   justify-content: space-between;
   /* position: absolute; */
   top: 0;
-}
-
-header .container .links {
-  background-color: transparent;
 }
 
 header a {
   text-decoration: none;
   color: black;
   font-size: 0.8rem;
-
   padding: 7px;
 }
 
 header a:hover {
-  border: 1.5px solid rgb(0, 0, 0);
+  border: 1.5px solid #000000;
 }
 
 @media (max-width: 650px) {
@@ -55,7 +45,7 @@ header a:hover {
 /* landing panel */
 
 .landing-panel {
-  background-image: url("./media/john-westrock-PDfe7H5GJR0-unsplash.jpg");
+  background-image: url("media/john-westrock-PDfe7H5GJR0-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -63,14 +53,14 @@ header a:hover {
 .landing-panel h1 {
   margin: 0;
   font-size: 3rem;
-  color: rgb(77, 77, 77);
+  color: #4d4d4d;
   font-weight: lighter;
 }
 
 .landing-panel h2 {
   margin: 0;
   font-size: 2rem;
-  color: rgb(77, 77, 77);
+  color: #4d4d4d;
   font-weight: lighter;
 }
 
@@ -90,12 +80,12 @@ header a:hover {
 
   .landing-panel h1 {
     font-size: 2rem;
-    color: rgb(0, 0, 0);
+    color: #000000;
   }
 
   .landing-panel h2 {
     font-size: 1.5rem;
-    color: rgb(218, 218, 218);
+    color: #dadada;
   }
 }
 
@@ -118,8 +108,7 @@ header a:hover {
 .project-panel h6 {
   text-align: center;
   font-size: 0.8rem;
-  margin-top: 3px;
-  margin-bottom: 7px;
+  margin: 3px 0px 7px 0px;
 }
 
 .project-panel .language {
@@ -129,6 +118,8 @@ header a:hover {
 
 .project-panel .heading {
   text-align: center;
+  font-size: 1.3rem;
+  font-weight: lighter;
 }
 
 @media (max-width: 650px) {
@@ -203,7 +194,7 @@ header a:hover {
 /* footer */
 
 footer {
-  background-color: rgb(180, 180, 180);
+  background-color: #b4b4b4;
 }
 
 footer .container {
