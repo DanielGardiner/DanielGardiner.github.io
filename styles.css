@@ -8,6 +8,10 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* header */
 
 header .container {
@@ -84,7 +88,7 @@ header a:hover {
 
 @media (max-width: 650px) {
   .landing-panel {
-    height: 390px;
+    height: 600px;
     text-align: center;
   }
 
@@ -95,12 +99,10 @@ header a:hover {
 
   .landing-panel h1 {
     font-size: 2rem;
-    color: #ffffff;
   }
 
   .landing-panel h2 {
     font-size: 1.5rem;
-
     color: #ffffff;
   }
 }
@@ -151,6 +153,71 @@ header a:hover {
 
 #proj1::before {
   content: "1";
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: white;
+  font-size: 2rem;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  top: 10px;
+  left: 20px;
+  position: absolute;
+}
+
+#proj2::before {
+  content: "2";
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: white;
+  font-size: 2rem;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  top: 10px;
+  left: 20px;
+  position: absolute;
+}
+
+#proj3::before {
+  content: "3";
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: white;
+  font-size: 2rem;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  top: 10px;
+  left: 20px;
+  position: absolute;
+}
+
+#proj4::before {
+  content: "4";
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: white;
+  font-size: 2rem;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  top: 10px;
+  left: 20px;
+  position: absolute;
+}
+
+#proj5::before {
+  content: "5";
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: white;
+  font-size: 2rem;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  top: 10px;
+  left: 20px;
+  position: absolute;
+}
+
+#proj6::before {
+  content: "6";
   padding-left: 9px;
   padding-right: 9px;
   background-color: white;
@@ -257,4 +324,10 @@ footer .container {
 
 footer p {
   padding-top: 30px;
+}
+
+@media (max-width: 610px) {
+  footer p {
+    padding-top: 10px;
+  }
 }
