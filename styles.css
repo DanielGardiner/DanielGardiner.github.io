@@ -40,6 +40,18 @@ header a:hover {
   border: 1.5px solid rgb(0, 0, 0);
 }
 
+@media (max-width: 650px) {
+  header .container {
+    margin: 10px auto;
+    display: block;
+  }
+
+  header .links {
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+
 /* landing panel */
 
 .landing-panel {
@@ -70,6 +82,22 @@ header a:hover {
   padding-bottom: 600px;
 }
 
+@media (max-width: 650px) {
+  .landing-panel {
+    height: 390px;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .landing-panel h1 {
+    font-size: 2rem;
+  }
+
+  .landing-panel h2 {
+    font-size: 1.5rem;
+  }
+}
+
 /* project panel */
 
 .project-panel .container {
@@ -96,6 +124,20 @@ header a:hover {
 .project-panel .language {
   display: flex;
   justify-content: space-evenly;
+}
+
+@media (max-width: 650px) {
+  .project-layout {
+    display: block;
+  }
+
+  .project-item {
+    width: 100%;
+  }
+
+  .project-panel .heading {
+    text-align: center;
+  }
 }
 
 /* about me */
@@ -131,7 +173,8 @@ header a:hover {
 }
 
 .hire-item img {
-  width: 20%;
+  width: auto;
+  height: 35px;
   margin: 0 auto;
   display: block;
 }
@@ -139,6 +182,17 @@ header a:hover {
 .hire-item p {
   text-align: center;
   font-size: 0.9rem;
+}
+
+@media (max-width: 650px) {
+  .hire-me-layout {
+    display: block;
+    width: 100%;
+  }
+
+  .hire-item {
+    width: 100%;
+  }
 }
 
 /* footer */
