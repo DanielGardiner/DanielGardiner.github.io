@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+
+header .container {
+  margin: 30px auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute; */
+  top: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+  padding: 7px;
+}
+
+header a:hover {
+  border: 1.5px solid #000000;
+}
+
+@media (max-width: 650px) {
+  header .container {
+    margin: 10px auto;
+    display: block;
+  }
+
+  header .links {
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+
+/* landing panel */
+
+.landing-panel {
+  background-image: url("media/john-westrock-PDfe7H5GJR0-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-panel h1 {
+  margin: 0;
+  font-size: 3rem;
+  color: #4d4d4d;
+  font-weight: lighter;
+}
+
+.landing-panel h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #4d4d4d;
+  font-weight: lighter;
+}
+
+.landing-panel .container {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 600px;
+}
+
+@media (max-width: 650px) {
+  .landing-panel {
+    height: 390px;
+    text-align: center;
+  }
+
+  .landing-panel h1 {
+    font-size: 2rem;
+    color: #000000;
+  }
+
+  .landing-panel h2 {
+    font-size: 1.5rem;
+    color: #dadada;
+  }
+}
+
+/* project panel */
+
+.project-panel .container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.project-layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  width: 33.3%;
+}
+
+.project-panel h6 {
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 3px 0px 7px 0px;
+}
+
+.project-panel .language {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-panel .heading {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+@media (max-width: 650px) {
+  .project-layout {
+    display: block;
+  }
+
+  .project-item {
+    width: 100%;
+  }
+}
+
+/* about me */
+
+.about-me .container {
+  margin: 0 auto;
+  width: 70%;
+  border-top: 2px solid #c4c4c4;
+  margin-top: 30px;
+}
+
+.about-me h3 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* hire me */
+
+.hire-me .container {
+  margin: 0 auto;
+  width: 70%;
+  border-top: 2px solid #c4c4c4;
+  margin-top: 30px;
+}
+
+.hire-me h3 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.hire-me-layout {
+  display: flex;
+}
+
+.hire-item {
+  width: 25%;
+}
+
+.hire-item img {
+  width: auto;
+  height: 35px;
+  margin: 0 auto;
+  display: block;
+}
+
+.hire-item p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 650px) {
+  .hire-me-layout {
+    display: block;
+    width: 100%;
+  }
+
+  .hire-item {
+    width: 100%;
+  }
+}
+
+/* footer */
+
+footer {
+  background-color: #b4b4b4;
+}
+
+footer .container {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+footer p {
+  padding-top: 30px;
+}
