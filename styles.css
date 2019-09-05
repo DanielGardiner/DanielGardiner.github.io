@@ -86,15 +86,16 @@ header a:hover {
   .landing-panel {
     height: 390px;
     text-align: center;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 
   .landing-panel h1 {
     font-size: 2rem;
+    color: rgb(0, 0, 0);
   }
 
   .landing-panel h2 {
     font-size: 1.5rem;
+    color: rgb(218, 218, 218);
   }
 }
 
@@ -145,6 +146,8 @@ header a:hover {
 .about-me .container {
   margin: 0 auto;
   width: 70%;
+  border-top: 2px solid #c4c4c4;
+  margin-top: 30px;
 }
 
 .about-me h3 {
@@ -157,6 +160,8 @@ header a:hover {
 .hire-me .container {
   margin: 0 auto;
   width: 70%;
+  border-top: 2px solid #c4c4c4;
+  margin-top: 30px;
 }
 
 .hire-me h3 {
