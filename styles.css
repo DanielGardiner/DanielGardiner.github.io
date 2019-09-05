@@ -7,6 +7,8 @@ body {
   margin: 0;
 }
 
+/* header */
+
 header {
   width: 100%;
 }
@@ -25,9 +27,70 @@ header .container .links {
   background-color: transparent;
 }
 
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+
+  padding: 7px;
+}
+
+header a:hover {
+  border: 1.5px solid rgb(0, 0, 0);
+}
+
+/* landing panel */
+
 .landing-panel h1 {
   margin: 0;
+  font-size: 3rem;
 }
+
+.landing-panel h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
 .landing-panel .container {
   text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* project panel */
+
+.project-panel .container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.project-layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  width: 33.3%;
+}
+
+.project-panel h3 {
+  text-align: center;
+}
+
+.project-panel .language {
+  display: flex;
+}
+
+/* about me */
+
+.about-me .container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+/* hire me */
+
+.hire-me .container {
+  margin: 0 auto;
+  width: 70%;
 }
