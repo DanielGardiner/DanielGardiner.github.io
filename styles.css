@@ -132,7 +132,11 @@ html {
 
 .project-panel .language {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.project-panel .language > * {
+  padding: 0 20px 0 20px;
 }
 
 .project-panel .heading {
@@ -150,39 +154,38 @@ html {
 }
 
 .project-item::before {
-  padding-left: 9px;
-  padding-right: 9px;
-  background-color: white;
-  font-size: 2rem;
-  border: 1px solid #000000;
-  border-radius: 50%;
-  top: 10px;
-  left: 20px;
   position: absolute;
+  width: 12%;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
-#proj1::before {
-  content: "1";
+#proj1:before {
+  content: url("media/number_icons/one.svg");
 }
 
-#proj2::before {
-  content: "2";
+#proj2:before {
+  content: url("media/number_icons/two.svg");
 }
 
-#proj3::before {
-  content: "3";
+#proj3:before {
+  content: url("media/number_icons/three.svg");
 }
 
-#proj4::before {
-  content: "4";
+#proj4:before {
+  content: url("media/number_icons/four.svg");
 }
 
-#proj5::before {
-  content: "5";
+#proj5:before {
+  content: url("media/number_icons/five.svg");
 }
 
-#proj6::before {
-  content: "6";
+#proj6:before {
+  content: url("media/number_icons/six.svg");
+}
+
+#proj1:before {
+  content: url("media/number_icons/one.svg");
 }
 
 @media (max-width: 650px) {
@@ -246,6 +249,11 @@ html {
   line-height: 2;
 }
 
+@media (max-width: 1080px) {
+  .about-me .container {
+    width: 100%;
+  }
+}
 /* hire me */
 
 .hire-me .container {
@@ -301,6 +309,14 @@ html {
   }
 }
 
+/* skills */
+
+@media (max-width: 850px) {
+  .skills-panel .container {
+    width: 100%;
+  }
+}
+
 /* footer */
 
 footer {
@@ -309,8 +325,6 @@ footer {
 
 footer .container {
   height: 60px;
-  display: flex;
-  justify-content: space-between;
   width: 70%;
   margin: 0 auto;
 }
@@ -321,6 +335,6 @@ footer p {
 
 @media (max-width: 610px) {
   footer p {
-    padding-top: 10px;
+    padding-top: 30px;
   }
 }
