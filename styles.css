@@ -115,12 +115,12 @@ html {
 .project-layout {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .project-item {
   width: 33.3%;
-  padding-right: 8px;
-  padding-left: 8px;
+  padding: 0 8px 25px 8px;
   position: relative;
 }
 
@@ -195,6 +195,36 @@ html {
   }
 }
 
+/* skills */
+
+.skills-panel .container {
+  margin: 30px auto 0 auto;
+  width: 70%;
+  border-top: 2px solid #c4c4c4;
+}
+
+.skills-panel h3 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.skills-layout {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.skills-item {
+  padding: 0 20px 50px 20px;
+}
+
+.skills-item img {
+  height: 70px;
+  width: auto;
+}
+
 /* about me */
 
 .about-me .container {
@@ -207,6 +237,13 @@ html {
 .about-me h3 {
   font-size: 1.3rem;
   text-align: center;
+}
+
+.about-me p {
+  font-size: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 2;
 }
 
 /* hire me */
