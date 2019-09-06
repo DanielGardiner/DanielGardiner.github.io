@@ -8,38 +8,8 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* header */
-
-header .container {
-  margin: 30px auto;
-  width: 40%;
-  display: flex;
-  justify-content: space-between;
-  /* position: absolute; */
-  top: 0;
-}
-
-header a {
-  text-decoration: none;
-  color: black;
-  font-size: 0.8rem;
-  padding: 7px;
-}
-
-header a:hover {
-  border: 1.5px solid #000000;
-}
-
-@media (max-width: 650px) {
-  header .container {
-    margin: 10px auto;
-    display: block;
-  }
-
-  header .links {
-    text-align: center;
-    padding-top: 10px;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 /* landing panel */
@@ -50,8 +20,34 @@ header a:hover {
   background-repeat: no-repeat;
 }
 
+.landing-panel .container {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 600px;
+}
+
+.landing-panel nav {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.landing-panel nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+  margin: 0 50px 0 50px;
+  padding: 10px;
+}
+
+.landing-panel nav a:hover {
+  border: 1.5px solid #000000;
+}
+
 .landing-panel h1 {
   margin: 0;
+  padding-bottom: 15px;
   font-size: 3rem;
   color: #4d4d4d;
   font-weight: lighter;
@@ -64,28 +60,48 @@ header a:hover {
   font-weight: lighter;
 }
 
-.landing-panel .container {
-  text-align: center;
-  width: 50%;
-  margin: 0 auto;
-  padding-top: 100px;
-  padding-bottom: 600px;
+.landing-panel img {
+  margin-top: 15px;
+  width: 30px;
+  height: auto;
+  opacity: 0.7;
 }
 
 @media (max-width: 650px) {
   .landing-panel {
-    height: 390px;
+    height: 600px;
     text-align: center;
   }
 
   .landing-panel h1 {
     font-size: 2rem;
-    color: #000000;
+    text-shadow: -0.5px 0 #000000, 0 0.5px #000000, 0.5px 0 #000000,
+      0 -0.5px #000000;
   }
 
   .landing-panel h2 {
     font-size: 1.5rem;
-    color: #dadada;
+    color: #ffffff;
+    text-shadow: -0.5px 0 #000000, 0 0.5px #000000, 0.5px 0 #000000,
+      0 -0.5px #000000;
+  }
+
+  .landing-panel nav {
+    margin-bottom: 10px;
+    display: block;
+    padding-bottom: 0px;
+  }
+
+  .landing-panel nav .links {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  header .links {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 3px;
   }
 }
 
@@ -103,6 +119,9 @@ header a:hover {
 
 .project-item {
   width: 33.3%;
+  padding-right: 8px;
+  padding-left: 8px;
+  position: relative;
 }
 
 .project-panel h6 {
@@ -120,6 +139,50 @@ header a:hover {
   text-align: center;
   font-size: 1.3rem;
   font-weight: lighter;
+}
+
+.project-panel img {
+  width: 100%;
+}
+
+.project-panel p {
+  font-size: 0.8rem;
+}
+
+.project-item::before {
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: white;
+  font-size: 2rem;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  top: 10px;
+  left: 20px;
+  position: absolute;
+}
+
+#proj1::before {
+  content: "1";
+}
+
+#proj2::before {
+  content: "2";
+}
+
+#proj3::before {
+  content: "3";
+}
+
+#proj4::before {
+  content: "4";
+}
+
+#proj5::before {
+  content: "5";
+}
+
+#proj6::before {
+  content: "6";
 }
 
 @media (max-width: 650px) {
@@ -180,7 +243,13 @@ header a:hover {
   font-size: 0.9rem;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1080px) {
+  .hire-item p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 850px) {
   .hire-me-layout {
     display: block;
     width: 100%;
@@ -188,6 +257,10 @@ header a:hover {
 
   .hire-item {
     width: 100%;
+  }
+
+  .hire-item p {
+    font-size: 0.9rem;
   }
 }
 
@@ -207,4 +280,10 @@ footer .container {
 
 footer p {
   padding-top: 30px;
+}
+
+@media (max-width: 610px) {
+  footer p {
+    padding-top: 10px;
+  }
 }
