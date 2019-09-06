@@ -194,6 +194,37 @@ html {
   }
 }
 
+/* skills */
+
+.skills-panel .container {
+  margin: 0 auto;
+  width: 70%;
+  border-top: 2px solid #c4c4c4;
+  margin-top: 30px;
+}
+
+.skills-panel h3 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.skills-layout {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.skills-item {
+  padding: 0 20px 50px 20px;
+}
+
+.skills-item img {
+  height: 70px;
+  width: auto;
+}
+
 /* about me */
 
 .about-me .container {
@@ -273,7 +304,6 @@ html {
 /* footer */
 
 footer {
-  margin-top: 40px;
   background-color: #b4b4b4;
 }
 
