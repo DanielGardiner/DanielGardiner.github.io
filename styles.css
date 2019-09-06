@@ -12,41 +12,37 @@ html {
   scroll-behavior: smooth;
 }
 
-.landing-panel nav {
-  display: flex;
-  padding: 40px;
-}
-
-.landing-panel nav a {
-  text-decoration: none;
-  color: black;
-  font-size: 0.8rem;
-  padding: 7px;
-}
-
-.landing-panel nav a:hover {
-  border: 1.5px solid #000000;
-}
-
-@media (max-width: 650px) {
-  header .container {
-    margin: 10px auto;
-    display: block;
-  }
-
-  header .links {
-    text-align: center;
-    padding-top: 10px;
-    margin-top: 3px;
-  }
-}
-
 /* landing panel */
 
 .landing-panel {
   background-image: url("media/john-westrock-PDfe7H5GJR0-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.landing-panel .container {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 600px;
+}
+
+.landing-panel nav {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.landing-panel nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+  margin: 0 50px 0 50px;
+  padding: 10px;
+}
+
+.landing-panel nav a:hover {
+  border: 1.5px solid #000000;
 }
 
 .landing-panel h1 {
@@ -64,14 +60,6 @@ html {
   font-weight: lighter;
 }
 
-.landing-panel .container {
-  text-align: center;
-  width: 50%;
-  margin: 0 auto;
-  padding-top: 100px;
-  padding-bottom: 600px;
-}
-
 .landing-panel img {
   margin-top: 15px;
   width: 30px;
@@ -85,18 +73,34 @@ html {
     text-align: center;
   }
 
-  .landing-panel {
-    text-shadow: -0.5px 0 #000000, 0 0.5px #000000, 0.5px 0 #000000,
-      0 -0.5px #000000;
-  }
-
   .landing-panel h1 {
     font-size: 2rem;
+    text-shadow: -0.5px 0 #000000, 0 0.5px #000000, 0.5px 0 #000000,
+      0 -0.5px #000000;
   }
 
   .landing-panel h2 {
     font-size: 1.5rem;
     color: #ffffff;
+    text-shadow: -0.5px 0 #000000, 0 0.5px #000000, 0.5px 0 #000000,
+      0 -0.5px #000000;
+  }
+
+  .landing-panel nav a {
+    margin: 40px 20px;
+  }
+
+  .landing-panel nav {
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+@media (max-width: 650px) {
+  header .links {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 3px;
   }
 }
 
