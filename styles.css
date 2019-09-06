@@ -132,7 +132,11 @@ html {
 
 .project-panel .language {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.project-panel .language > * {
+  padding: 0 20px 0 20px;
 }
 
 .project-panel .heading {
@@ -245,6 +249,11 @@ html {
   line-height: 2;
 }
 
+@media (max-width: 1080px) {
+  .about-me .container {
+    width: 100%;
+  }
+}
 /* hire me */
 
 .hire-me .container {
@@ -300,6 +309,14 @@ html {
   }
 }
 
+/* skills */
+
+@media (max-width: 850px) {
+  .skills-panel .container {
+    width: 100%;
+  }
+}
+
 /* footer */
 
 footer {
@@ -308,8 +325,6 @@ footer {
 
 footer .container {
   height: 60px;
-  display: flex;
-  justify-content: space-between;
   width: 70%;
   margin: 0 auto;
 }
@@ -320,6 +335,6 @@ footer p {
 
 @media (max-width: 610px) {
   footer p {
-    padding-top: 10px;
+    padding-top: 30px;
   }
 }
