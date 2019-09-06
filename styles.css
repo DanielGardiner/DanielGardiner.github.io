@@ -197,10 +197,9 @@ html {
 /* skills */
 
 .skills-panel .container {
-  margin: 0 auto;
+  margin: 30px auto 0 auto;
   width: 70%;
   border-top: 2px solid #c4c4c4;
-  margin-top: 30px;
 }
 
 .skills-panel h3 {
