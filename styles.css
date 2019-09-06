@@ -86,12 +86,14 @@ html {
       0 -0.5px #000000;
   }
 
-  .landing-panel nav a {
-    margin: 40px 20px;
+  .landing-panel nav {
+    margin-bottom: 10px;
+    display: block;
+    padding-bottom: 0px;
   }
 
-  .landing-panel nav {
-    display: block;
+  .landing-panel nav .links {
+    margin-bottom: 20px;
   }
 }
 
