@@ -12,26 +12,19 @@ html {
   scroll-behavior: smooth;
 }
 
-/* header */
-
-header .container {
-  margin: 30px auto;
-  width: 40%;
+.landing-panel nav {
   display: flex;
-  justify-content: space-between;
-  position: absolute;
-  left: 29%;
-  top: 0;
+  padding: 40px;
 }
 
-header a {
+.landing-panel nav a {
   text-decoration: none;
   color: black;
   font-size: 0.8rem;
   padding: 7px;
 }
 
-header a:hover {
+.landing-panel nav a:hover {
   border: 1.5px solid #000000;
 }
 
@@ -151,8 +144,7 @@ header a:hover {
   font-size: 0.8rem;
 }
 
-#proj1::before {
-  content: "1";
+.project-item::before {
   padding-left: 9px;
   padding-right: 9px;
   background-color: white;
@@ -162,71 +154,30 @@ header a:hover {
   top: 10px;
   left: 20px;
   position: absolute;
+}
+
+#proj1::before {
+  content: "1";
 }
 
 #proj2::before {
   content: "2";
-  padding-left: 9px;
-  padding-right: 9px;
-  background-color: white;
-  font-size: 2rem;
-  border: 1px solid #000000;
-  border-radius: 50%;
-  top: 10px;
-  left: 20px;
-  position: absolute;
 }
 
 #proj3::before {
   content: "3";
-  padding-left: 9px;
-  padding-right: 9px;
-  background-color: white;
-  font-size: 2rem;
-  border: 1px solid #000000;
-  border-radius: 50%;
-  top: 10px;
-  left: 20px;
-  position: absolute;
 }
 
 #proj4::before {
   content: "4";
-  padding-left: 9px;
-  padding-right: 9px;
-  background-color: white;
-  font-size: 2rem;
-  border: 1px solid #000000;
-  border-radius: 50%;
-  top: 10px;
-  left: 20px;
-  position: absolute;
 }
 
 #proj5::before {
   content: "5";
-  padding-left: 9px;
-  padding-right: 9px;
-  background-color: white;
-  font-size: 2rem;
-  border: 1px solid #000000;
-  border-radius: 50%;
-  top: 10px;
-  left: 20px;
-  position: absolute;
 }
 
 #proj6::before {
   content: "6";
-  padding-left: 9px;
-  padding-right: 9px;
-  background-color: white;
-  font-size: 2rem;
-  border: 1px solid #000000;
-  border-radius: 50%;
-  top: 10px;
-  left: 20px;
-  position: absolute;
 }
 
 @media (max-width: 650px) {
