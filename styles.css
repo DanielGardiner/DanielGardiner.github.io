@@ -39,11 +39,11 @@ html {
   font-size: 0.8rem;
   margin: 0 50px 0 50px;
   padding: 10px;
-  border: 1.5px solid transparent;
+  border: 2px solid transparent;
 }
 
 .landing-panel nav a:hover {
-  border: 1.5px solid #000000;
+  border: 2px solid #000000;
 }
 
 .landing-panel h1 {
@@ -77,14 +77,14 @@ html {
   .landing-panel h1 {
     font-size: 3rem;
     color: #ffffff;
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
   }
 
   .landing-panel h2 {
     font-size: 2.2rem;
     color: #ffffff;
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
   }
 
@@ -133,7 +133,7 @@ html {
 }
 
 .project-panel .language > * {
-  padding: 0 5px 0 5px;
+  padding: 0 5px;
 }
 
 .project-panel .heading {
