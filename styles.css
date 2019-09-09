@@ -257,11 +257,26 @@ html {
   height: 35px;
   margin: 0 auto;
   display: block;
+  border-bottom: 1px solid transparent;
 }
 
 .hire-item p {
   text-align: center;
   font-size: 0.9rem;
+}
+
+/*
+.hire-item:hover {
+  border-bottom: 2px solid #4e4e4e;
+}
+*/
+
+.hire-item:hover::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-bottom: 1px solid #808080;
 }
 
 @media (max-width: 1080px) {
