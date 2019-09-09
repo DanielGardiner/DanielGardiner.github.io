@@ -39,10 +39,11 @@ html {
   font-size: 0.8rem;
   margin: 0 50px 0 50px;
   padding: 10px;
+  border: 2px solid transparent;
 }
 
 .landing-panel nav a:hover {
-  border: 1.5px solid #000000;
+  border: 2px solid #000000;
 }
 
 .landing-panel h1 {
@@ -74,16 +75,17 @@ html {
   }
 
   .landing-panel h1 {
-    font-size: 2rem;
-    text-shadow: -0.5px 0 #000000, 0 0.5px #000000, 0.5px 0 #000000,
-      0 -0.5px #000000;
+    font-size: 3rem;
+    color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
   }
 
   .landing-panel h2 {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     color: #ffffff;
-    text-shadow: -0.5px 0 #000000, 0 0.5px #000000, 0.5px 0 #000000,
-      0 -0.5px #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
   }
 
   .landing-panel nav {
@@ -94,14 +96,6 @@ html {
 
   .landing-panel nav .links {
     margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 650px) {
-  header .links {
-    text-align: center;
-    padding-top: 10px;
-    margin-top: 3px;
   }
 }
 
@@ -131,12 +125,15 @@ html {
 }
 
 .project-panel .language {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
 }
 
 .project-panel .language > * {
-  padding: 0 20px 0 20px;
+  padding: 0 5px;
 }
 
 .project-panel .heading {
@@ -151,6 +148,8 @@ html {
 
 .project-panel p {
   font-size: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 .project-item::before {
@@ -196,36 +195,6 @@ html {
   .project-item {
     width: 100%;
   }
-}
-
-/* skills */
-
-.skills-panel .container {
-  margin: 30px auto 0 auto;
-  width: 70%;
-  border-top: 2px solid #c4c4c4;
-}
-
-.skills-panel h3 {
-  text-align: center;
-  font-size: 1.3rem;
-}
-
-.skills-layout {
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
-
-.skills-item {
-  padding: 0 20px 50px 20px;
-}
-
-.skills-item img {
-  height: 70px;
-  width: auto;
 }
 
 /* about me */
@@ -283,9 +252,34 @@ html {
   display: block;
 }
 
+.hire-item a {
+  text-decoration: none;
+}
+
 .hire-item p {
   text-align: center;
   font-size: 0.9rem;
+  color: #000000;
+}
+
+.hire-item::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-bottom: 1px solid transparent;
+  padding-top: 2px;
+  margin-bottom: -1px;
+}
+
+.hire-item:hover::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-bottom: 1px solid #808080;
+  padding-top: 2px;
+  margin-bottom: -1px;
 }
 
 @media (max-width: 1080px) {
@@ -302,6 +296,11 @@ html {
 
   .hire-item {
     width: 100%;
+    padding-bottom: 25px;
+  }
+
+  .hire-item:hover::after {
+    width: 30%;
   }
 
   .hire-item p {
@@ -310,6 +309,34 @@ html {
 }
 
 /* skills */
+
+.skills-panel .container {
+  margin: 30px auto 0 auto;
+  width: 70%;
+  border-top: 2px solid #c4c4c4;
+}
+
+.skills-panel h3 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.skills-layout {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.skills-item {
+  padding: 0 20px 50px 20px;
+}
+
+.skills-item img {
+  height: 70px;
+  width: auto;
+}
 
 @media (max-width: 850px) {
   .skills-panel .container {
@@ -321,6 +348,7 @@ html {
 
 footer {
   background-color: #b4b4b4;
+  border-top: 1px solid #666666;
 }
 
 footer .container {
