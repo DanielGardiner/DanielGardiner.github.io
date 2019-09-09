@@ -75,16 +75,17 @@ html {
   }
 
   .landing-panel h1 {
-    font-size: 2rem;
-    text-shadow: -0.5px 0 #000000, 0 0.5px #000000, 0.5px 0 #000000,
-      0 -0.5px #000000;
+    font-size: 3rem;
+    color: #ffffff;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000000;
   }
 
   .landing-panel h2 {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     color: #ffffff;
-    text-shadow: -0.5px 0 #000000, 0 0.5px #000000, 0.5px 0 #000000,
-      0 -0.5px #000000;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: #000000;
   }
 
   .landing-panel nav {
@@ -95,14 +96,6 @@ html {
 
   .landing-panel nav .links {
     margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 650px) {
-  header .links {
-    text-align: center;
-    padding-top: 10px;
-    margin-top: 3px;
   }
 }
 
@@ -283,7 +276,7 @@ html {
   margin-bottom: -2px;
 }
 
-*/ @media (max-width: 1080px) {
+@media (max-width: 1080px) {
   .hire-item p {
     font-size: 0.7rem;
   }
@@ -344,6 +337,7 @@ html {
 
 footer {
   background-color: #b4b4b4;
+  border-top: 1px solid #666666;
 }
 
 footer .container {
