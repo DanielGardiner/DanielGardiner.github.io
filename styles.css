@@ -84,7 +84,7 @@ html {
   .landing-panel h2 {
     font-size: 2.2rem;
     color: #ffffff;
-    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #000000;
   }
 
@@ -262,6 +262,16 @@ html {
   color: #000000;
 }
 
+.hire-item::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-bottom: 1px solid transparent;
+  padding-top: 2px;
+  margin-bottom: -1px;
+}
+
 .hire-item:hover::after {
   content: "";
   display: block;
@@ -270,10 +280,6 @@ html {
   border-bottom: 1px solid #808080;
   padding-top: 2px;
   margin-bottom: -1px;
-}
-
-.hire-item:hover {
-  margin-bottom: -2px;
 }
 
 @media (max-width: 1080px) {
@@ -290,6 +296,11 @@ html {
 
   .hire-item {
     width: 100%;
+    padding-bottom: 25px;
+  }
+
+  .hire-item:hover::after {
+    width: 30%;
   }
 
   .hire-item p {
