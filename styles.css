@@ -205,11 +205,17 @@ html {
 
 /* about me */
 
+.bar {
+  border-top: 2px solid #c4c4c4;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
 .about-me .container {
   margin: 0 auto;
   width: 70%;
-  border-top: 2px solid #c4c4c4;
-  margin-top: 30px;
+  margin-top: 0;
 }
 
 .about-me h3 {
