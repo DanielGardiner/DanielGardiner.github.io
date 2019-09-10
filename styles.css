@@ -78,12 +78,14 @@ html {
     padding-top: 7px;
   }
 
+  /*
   .landing-panel nav a {
     display: none;
   }
+  */
 
   .landing-panel h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .landing-panel h2 {
@@ -95,9 +97,13 @@ html {
   }
 
   .landing-panel nav {
-    margin-bottom: 10px;
-    display: block;
-    padding-bottom: 0px;
+    padding: 15px 0 0 0;
+  }
+
+  .landing-panel nav a {
+    font-size: 0.8rem;
+    width: 30%;
+    margin: 5px;
   }
 
   .landing-panel nav .links {
