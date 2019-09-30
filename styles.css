@@ -12,12 +12,23 @@ html {
   scroll-behavior: smooth;
 }
 
+/*page break */
+
+.page-break {
+  margin: 45px auto;
+  width: 40%;
+  border-top: 2px solid #c4c4c4;
+}
+
+
 /* landing panel */
 
 .landing-panel {
   background-image: url("media/john-westrock-PDfe7H5GJR0-unsplash.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  /*background-size: auto;*/
+  background-position: center center;
+  background-repeat:no-repeat;
 }
 
 .landing-panel .container {
@@ -36,7 +47,7 @@ html {
 .landing-panel nav a {
   text-decoration: none;
   color: black;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin: 0 50px 0 50px;
   padding: 10px;
   border: 2px solid transparent;
@@ -68,34 +79,39 @@ html {
   opacity: 0.7;
 }
 
+
 @media (max-width: 650px) {
   .landing-panel {
-    height: 600px;
+    height: 700px;
     text-align: center;
   }
 
   .landing-panel h1 {
     font-size: 3rem;
-    color: #ffffff;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000000;
+  /*  color: #ffffff;*/
+  /*  -webkit-text-stroke-width: 1px;*/
+  /*  -webkit-text-stroke-color: #000000;*/
   }
 
   .landing-panel h2 {
     font-size: 2.2rem;
-    color: #ffffff;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000000;
+  /*  color: #ffffff;*/
+  /*  -webkit-text-stroke-width: 1px;*/
+  /*  -webkit-text-stroke-color: #000000;*/
   }
 
   .landing-panel nav {
-    margin-bottom: 10px;
-    display: block;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
   }
 
-  .landing-panel nav .links {
+
+  nav .links {
     margin-bottom: 20px;
+  }
+
+  .landing-panel nav a {
+    margin: 0 5px;
+
   }
 }
 
@@ -187,6 +203,17 @@ html {
   content: url("media/number_icons/one.svg");
 }
 
+@media (max-width: 850px) {
+  .project-panel .container {
+    width: 90%;
+  }
+
+  .project-item {
+    width: 50%;
+  }
+}
+
+
 @media (max-width: 650px) {
   .project-layout {
     display: block;
@@ -202,7 +229,6 @@ html {
 .about-me .container {
   margin: 0 auto;
   width: 70%;
-  border-top: 2px solid #c4c4c4;
   margin-top: 30px;
 }
 
@@ -228,7 +254,6 @@ html {
 .hire-me .container {
   margin: 0 auto;
   width: 70%;
-  border-top: 2px solid #c4c4c4;
   margin-top: 30px;
 }
 
@@ -243,6 +268,8 @@ html {
 
 .hire-item {
   width: 25%;
+  display: flex;
+  flex-direction: column;
 }
 
 .hire-item img {
@@ -258,62 +285,82 @@ html {
 
 .hire-item p {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #000000;
+  overflow-wrap: break-word;
+  width: 80%;
+  margin: 25px auto;
 }
 
-.hire-item::after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  border-bottom: 1px solid transparent;
-  padding-top: 2px;
-  margin-bottom: -1px;
-}
 
-.hire-item:hover::after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  border-bottom: 1px solid #808080;
-  padding-top: 2px;
-  margin-bottom: -1px;
-}
+
+/*.hire-item::after {*/
+/*  content: "";*/
+/*  display: block;*/
+/*  margin: 0 auto;*/
+/*  width: 50%;*/
+/*  border-bottom: 1px solid transparent;*/
+/*  padding-top: 2px;*/
+/*  margin-bottom: -1px;*/
+/*}*/
+
+/*.hire-item:hover::after {*/
+/*  content: "";*/
+/*  display: block;*/
+/*  margin: 0 auto;*/
+/*  width: 50%;*/
+/*  border-bottom: 1px solid #808080;*/
+/*  padding-top: 2px;*/
+/*  margin-bottom: -1px;*/
+/*}*/
+
 
 @media (max-width: 1080px) {
-  .hire-item p {
-    font-size: 0.7rem;
+  /*.hire-item p {*/
+  /*  font-size: 0.7rem;*/
+  /*}*/
+  .hire-item {
+    width: 33%;
   }
+
+
 }
 
 @media (max-width: 850px) {
+
   .hire-me-layout {
-    display: block;
-    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
   }
 
   .hire-item {
-    width: 100%;
-    padding-bottom: 25px;
+    width: 45%;
   }
 
-  .hire-item:hover::after {
-    width: 30%;
+
+  .hire-item a {
+    display: flex;
+    flex-direction: column;
   }
 
   .hire-item p {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 }
+
+@media (max-width: 580px) {
+  .hire-item {
+    width: 90%;
+  }
+
+}
+
 
 /* skills */
 
 .skills-panel .container {
   margin: 30px auto 0 auto;
   width: 70%;
-  border-top: 2px solid #c4c4c4;
 }
 
 .skills-panel h3 {
