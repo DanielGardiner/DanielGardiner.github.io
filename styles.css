@@ -26,7 +26,6 @@ html {
 .landing-panel {
   background-image: url("media/john-westrock-PDfe7H5GJR0-unsplash.jpg");
   background-size: cover;
-  /*background-size: auto;*/
   background-position: center center;
   background-repeat:no-repeat;
 }
@@ -88,16 +87,10 @@ html {
 
   .landing-panel h1 {
     font-size: 3rem;
-  /*  color: #ffffff;*/
-  /*  -webkit-text-stroke-width: 1px;*/
-  /*  -webkit-text-stroke-color: #000000;*/
   }
 
   .landing-panel h2 {
     font-size: 2.2rem;
-  /*  color: #ffffff;*/
-  /*  -webkit-text-stroke-width: 1px;*/
-  /*  -webkit-text-stroke-color: #000000;*/
   }
 
   .landing-panel nav {
@@ -119,7 +112,7 @@ html {
 
 .project-panel .container {
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
 }
 
 .project-layout {
@@ -130,14 +123,15 @@ html {
 
 .project-item {
   width: 33.3%;
-  padding: 0 8px 25px 8px;
+  padding: 0 30px 25px 30px;
   position: relative;
+  overflow: hidden;
 }
 
 .project-panel h6 {
   text-align: center;
-  font-size: 0.8rem;
-  margin: 3px 0px 7px 0px;
+  font-size: 1rem;
+  margin: 16px 0px 7px 0px;
 }
 
 .project-panel .language {
@@ -163,10 +157,49 @@ html {
 }
 
 .project-panel p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-top: 0;
   margin-bottom: 5px;
 }
+
+.hover-container {
+    position: relative;
+}
+
+.project-item .hover-container .hover-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    z-index: 101;
+    display: none;
+}
+
+.hover-panel .hover-links {
+    margin: 20px auto;
+  text-align: center;
+
+}
+
+.hover-panel .hover-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+
+.hover-panel .hover-links a:hover {
+    color: #ffff00;
+}
+
+.hover-panel .hover-text p {
+    color: #ffffff;
+    padding: 0 15px;
+}
+
 
 .project-item::before {
   position: absolute;
@@ -175,35 +208,46 @@ html {
   padding-top: 10px;
 }
 
-#proj1:before {
-  content: url("media/number_icons/one.svg");
+.project-item img {
+  width: 100%;
+  height: auto;
 }
 
-#proj2:before {
+
+
+#proj1-item:before {
+  content: url("media/number_icons/one.svg");
+    z-index: 100;
+}
+
+#proj2-item:before {
   content: url("media/number_icons/two.svg");
+  z-index: 101;
 }
 
-#proj3:before {
+#proj3-item:before {
   content: url("media/number_icons/three.svg");
+  z-index: 102;
 }
 
-#proj4:before {
+#proj4-item:before {
   content: url("media/number_icons/four.svg");
+  z-index: 103;
 }
 
-#proj5:before {
+#proj5-item:before {
   content: url("media/number_icons/five.svg");
+  z-index: 104;
 }
 
-#proj6:before {
+#proj6-item:before {
   content: url("media/number_icons/six.svg");
+  z-index: 105;
 }
 
-#proj1:before {
-  content: url("media/number_icons/one.svg");
-}
 
-@media (max-width: 850px) {
+
+@media (max-width: 1200px) {
   .project-panel .container {
     width: 90%;
   }
@@ -211,10 +255,11 @@ html {
   .project-item {
     width: 50%;
   }
+
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   .project-layout {
     display: block;
   }
@@ -222,7 +267,13 @@ html {
   .project-item {
     width: 100%;
   }
-}
+
+  .hover-panel .hover-text p {
+    display: none;
+  }
+
+
+  }
 
 /* about me */
 
@@ -293,32 +344,8 @@ html {
 }
 
 
-
-/*.hire-item::after {*/
-/*  content: "";*/
-/*  display: block;*/
-/*  margin: 0 auto;*/
-/*  width: 50%;*/
-/*  border-bottom: 1px solid transparent;*/
-/*  padding-top: 2px;*/
-/*  margin-bottom: -1px;*/
-/*}*/
-
-/*.hire-item:hover::after {*/
-/*  content: "";*/
-/*  display: block;*/
-/*  margin: 0 auto;*/
-/*  width: 50%;*/
-/*  border-bottom: 1px solid #808080;*/
-/*  padding-top: 2px;*/
-/*  margin-bottom: -1px;*/
-/*}*/
-
-
 @media (max-width: 1080px) {
-  /*.hire-item p {*/
-  /*  font-size: 0.7rem;*/
-  /*}*/
+
   .hire-item {
     width: 33%;
   }
