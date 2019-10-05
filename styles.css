@@ -168,6 +168,40 @@ html {
   margin-bottom: 5px;
 }
 
+.project-item .hover-panel {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 190px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    /*display: none;*/
+}
+
+.hover-panel .hover-links {
+    margin: 20px 0;
+
+}
+
+.hover-panel .hover-links a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.4rem;
+    padding: 10px 50px;
+}
+
+.hover-panel .hover-links a:hover {
+    color: #ffff00;
+}
+
+.hover-panel .hover-text p {
+    color: #ffffff;
+    padding: 0 15px;
+}
+
+
 .project-item::before {
   position: absolute;
   width: 12%;
