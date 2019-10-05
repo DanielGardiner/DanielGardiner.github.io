@@ -88,16 +88,10 @@ html {
 
   .landing-panel h1 {
     font-size: 3rem;
-  /*  color: #ffffff;*/
-  /*  -webkit-text-stroke-width: 1px;*/
-  /*  -webkit-text-stroke-color: #000000;*/
   }
 
   .landing-panel h2 {
     font-size: 2.2rem;
-  /*  color: #ffffff;*/
-  /*  -webkit-text-stroke-width: 1px;*/
-  /*  -webkit-text-stroke-color: #000000;*/
   }
 
   .landing-panel nav {
@@ -119,7 +113,7 @@ html {
 
 .project-panel .container {
   margin: 0 auto;
-  width: 75%;
+  width: 80%;
 }
 
 .project-layout {
@@ -132,7 +126,7 @@ html {
   width: 33.3%;
   padding: 0 30px 25px 30px;
   position: relative;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 .project-panel h6 {
@@ -195,7 +189,7 @@ html {
 .hover-panel .hover-links a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     padding: 10px 20px;
 }
 
@@ -227,8 +221,9 @@ html {
     z-index: 100;
 }
 
-#proj2:before {
+#proj2-item:before {
   content: url("media/number_icons/two.svg");
+  z-index: 101;
 }
 
 #proj3:before {
@@ -250,6 +245,7 @@ html {
 @media (min-width: 3501px) {
   .project-item img {
     height: 500px;
+    width: 800px;
   }
 }
 
@@ -257,27 +253,37 @@ html {
 @media (max-width: 3500px) {
   .project-item img {
     height: 400px;
+    width: 700px;
   }
 }
 
 @media (max-width: 2600px) {
   .project-item img {
-    height: 300px;
+    height: 240px;
+    width: 420px;
   }
 }
 
 @media (max-width: 1800px) {
   .project-item img {
     height: 220px;
+    width: 340px;
   }
 }
 
 @media (max-width: 1500px) {
   .project-item img {
-    height: 160px;
+    height: 150px;
+    width: 274px;
   }
 }
 
+@media (max-width: 1250px) {
+  .project-item img {
+    height: 130px;
+    width: 210px;
+  }
+}
 
 @media (max-width: 1000px) {
   .project-panel .container {
@@ -289,14 +295,15 @@ html {
   }
 
   .project-item img {
-    height: 200px;
-    /*width: 300px;*/
+    height: 190px;
+    width: 300px;
   }
 }
 
 @media (max-width: 800px) {
   .project-item img {
-    height: 150px;
+    height: 160px;
+    width: 230px;
   }
 }
 
@@ -311,13 +318,20 @@ html {
   }
 
   .project-item img {
-    height: 250px;
+    height: 230px;
+    width: 370px;
   }
 }
 @media (max-width: 480px) {
-  .project-item img {
-    height: 180px;
+  nav .links a {
+    font-size: 0.8rem;
   }
+
+  .project-item img {
+    height: 140px;
+    width: 220px;
+  }
+
 }
 /* about me */
 
