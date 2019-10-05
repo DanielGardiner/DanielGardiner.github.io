@@ -130,8 +130,8 @@ html {
 
 .project-panel h6 {
   text-align: center;
-  font-size: 0.8rem;
-  margin: 3px 0px 7px 0px;
+  font-size: 1rem;
+  margin: 16px 0px 7px 0px;
 }
 
 .project-panel .language {
@@ -157,7 +157,7 @@ html {
 }
 
 .project-panel p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -225,20 +225,24 @@ html {
   z-index: 101;
 }
 
-#proj3:before {
+#proj3-item:before {
   content: url("media/number_icons/three.svg");
+  z-index: 102;
 }
 
-#proj4:before {
+#proj4-item:before {
   content: url("media/number_icons/four.svg");
+  z-index: 103;
 }
 
-#proj5:before {
+#proj5-item:before {
   content: url("media/number_icons/five.svg");
+  z-index: 104;
 }
 
-#proj6:before {
+#proj6-item:before {
   content: url("media/number_icons/six.svg");
+  z-index: 105;
 }
 
 
