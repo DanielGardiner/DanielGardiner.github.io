@@ -132,7 +132,7 @@ html {
   width: 33.3%;
   padding: 0 30px 25px 30px;
   position: relative;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .project-panel h6 {
@@ -218,7 +218,7 @@ html {
 
 .project-item img {
   height: 170px;
-  width: 290px;
+  /*width: 290px;*/
 }
 
 
@@ -247,6 +247,37 @@ html {
   content: url("media/number_icons/six.svg");
 }
 
+@media (min-width: 3501px) {
+  .project-item img {
+    height: 500px;
+  }
+}
+
+
+@media (max-width: 3500px) {
+  .project-item img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 2600px) {
+  .project-item img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .project-item img {
+    height: 220px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .project-item img {
+    height: 160px;
+  }
+}
+
 
 @media (max-width: 1000px) {
   .project-panel .container {
@@ -263,6 +294,12 @@ html {
   }
 }
 
+@media (max-width: 800px) {
+  .project-item img {
+    height: 150px;
+  }
+}
+
 
 @media (max-width: 650px) {
   .project-layout {
@@ -272,8 +309,16 @@ html {
   .project-item {
     width: 100%;
   }
-}
 
+  .project-item img {
+    height: 250px;
+  }
+}
+@media (max-width: 480px) {
+  .project-item img {
+    height: 180px;
+  }
+}
 /* about me */
 
 .about-me .container {
