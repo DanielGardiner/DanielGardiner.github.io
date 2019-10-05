@@ -119,7 +119,7 @@ html {
 
 .project-panel .container {
   margin: 0 auto;
-  width: 70%;
+  width: 75%;
 }
 
 .project-layout {
@@ -130,8 +130,9 @@ html {
 
 .project-item {
   width: 33.3%;
-  padding: 0 8px 25px 8px;
+  padding: 0 30px 25px 30px;
   position: relative;
+  /*overflow: hidden;*/
 }
 
 .project-panel h6 {
@@ -168,20 +169,26 @@ html {
   margin-bottom: 5px;
 }
 
-.project-item .hover-panel {
+.hover-container {
+    position: relative;
+}
+
+.project-item .hover-container .hover-panel {
     position: absolute;
     top: 0;
+    left: 0;
     background-color: rgba(0, 0, 0, 0.7);
-    height: 190px;
-    width: 95%;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    z-index: 101;
+
     /*display: none;*/
 }
 
 .hover-panel .hover-links {
-    margin: 20px 0;
-
+    margin: 20px auto;
 }
 
 .hover-panel .hover-links a {
@@ -189,7 +196,7 @@ html {
     text-align: center;
     color: #ffffff;
     font-size: 1.4rem;
-    padding: 10px 50px;
+    padding: 10px 20px;
 }
 
 .hover-panel .hover-links a:hover {
@@ -209,8 +216,15 @@ html {
   padding-top: 10px;
 }
 
+.project-item img {
+  height: 170px;
+  /*width: 300px;*/
+}
+
+
 #proj1:before {
   content: url("media/number_icons/one.svg");
+    z-index: 100;
 }
 
 #proj2:before {
@@ -237,13 +251,18 @@ html {
   content: url("media/number_icons/one.svg");
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1000px) {
   .project-panel .container {
     width: 90%;
   }
 
   .project-item {
     width: 50%;
+  }
+
+  .project-item img {
+    height: 200px;
+    /*width: 300px;*/
   }
 }
 
