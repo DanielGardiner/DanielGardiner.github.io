@@ -132,7 +132,7 @@ html {
   width: 33.3%;
   padding: 0 30px 25px 30px;
   position: relative;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 .project-panel h6 {
@@ -183,17 +183,17 @@ html {
     display: flex;
     flex-direction: column;
     z-index: 101;
-
-    /*display: none;*/
+    display: none;
 }
 
 .hover-panel .hover-links {
     margin: 20px auto;
+  text-align: center;
+
 }
 
 .hover-panel .hover-links a {
     text-decoration: none;
-    text-align: center;
     color: #ffffff;
     font-size: 1.4rem;
     padding: 10px 20px;
@@ -218,11 +218,11 @@ html {
 
 .project-item img {
   height: 170px;
-  /*width: 300px;*/
+  width: 290px;
 }
 
 
-#proj1:before {
+#proj1-item:before {
   content: url("media/number_icons/one.svg");
     z-index: 100;
 }
@@ -247,9 +247,6 @@ html {
   content: url("media/number_icons/six.svg");
 }
 
-#proj1:before {
-  content: url("media/number_icons/one.svg");
-}
 
 @media (max-width: 1000px) {
   .project-panel .container {
