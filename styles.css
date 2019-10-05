@@ -344,11 +344,30 @@ html {
   margin: 25px auto;
 }
 
+.hire-item:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  padding-top: 10px;
+  border-bottom: 2px solid #ffffff;
+}
+
+
+.hire-item:hover:after {
+  border-bottom: 2px solid #c4c4c4;
+}
+
 
 @media (max-width: 1080px) {
   .hire-item p {
     font-size: 0.8rem;
   }
+
+  .hire-item {
+    margin-bottom: 20px;
+  }
+
 }
 
 @media (max-width: 870px) {
@@ -371,11 +390,21 @@ html {
   .hire-item p {
     font-size: 1.2rem;
   }
+
+
 }
 
 @media (max-width: 580px) {
   .hire-item {
     width: 90%;
+  }
+
+  .hire-item:hover:after {
+    display: none;
+  }
+
+  .hire-item:after {
+    display: none;
   }
 
 }
