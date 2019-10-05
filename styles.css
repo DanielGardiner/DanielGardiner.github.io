@@ -304,8 +304,7 @@ html {
 
 .hire-me .container {
   margin: 0 auto;
-  width: 70%;
-  margin-top: 30px;
+  width: 80%;
 }
 
 .hire-me h3 {
@@ -314,7 +313,9 @@ html {
 }
 
 .hire-me-layout {
+  margin-top: 50px;
   display: flex;
+  justify-content: center;
 }
 
 .hire-item {
@@ -325,7 +326,7 @@ html {
 
 .hire-item img {
   width: auto;
-  height: 35px;
+  height: 65px;
   margin: 0 auto;
   display: block;
 }
@@ -345,15 +346,12 @@ html {
 
 
 @media (max-width: 1080px) {
-
-  .hire-item {
-    width: 33%;
+  .hire-item p {
+    font-size: 0.8rem;
   }
-
-
 }
 
-@media (max-width: 850px) {
+@media (max-width: 870px) {
 
   .hire-me-layout {
     margin: 0 auto;
