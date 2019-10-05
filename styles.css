@@ -26,7 +26,6 @@ html {
 .landing-panel {
   background-image: url("media/john-westrock-PDfe7H5GJR0-unsplash.jpg");
   background-size: cover;
-  /*background-size: auto;*/
   background-position: center center;
   background-repeat:no-repeat;
 }
@@ -174,7 +173,6 @@ html {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    display: flex;
     flex-direction: column;
     z-index: 101;
     display: none;
@@ -211,9 +209,10 @@ html {
 }
 
 .project-item img {
-  height: 170px;
-  /*width: 290px;*/
+  width: 100%;
+  height: auto;
 }
+
 
 
 #proj1-item:before {
@@ -242,50 +241,9 @@ html {
   content: url("media/number_icons/six.svg");
 }
 
-@media (min-width: 3501px) {
-  .project-item img {
-    height: 500px;
-    width: 800px;
-  }
-}
 
 
-@media (max-width: 3500px) {
-  .project-item img {
-    height: 400px;
-    width: 700px;
-  }
-}
-
-@media (max-width: 2600px) {
-  .project-item img {
-    height: 240px;
-    width: 420px;
-  }
-}
-
-@media (max-width: 1800px) {
-  .project-item img {
-    height: 220px;
-    width: 340px;
-  }
-}
-
-@media (max-width: 1500px) {
-  .project-item img {
-    height: 150px;
-    width: 274px;
-  }
-}
-
-@media (max-width: 1250px) {
-  .project-item img {
-    height: 130px;
-    width: 210px;
-  }
-}
-
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .project-panel .container {
     width: 90%;
   }
@@ -294,21 +252,10 @@ html {
     width: 50%;
   }
 
-  .project-item img {
-    height: 190px;
-    width: 300px;
-  }
-}
-
-@media (max-width: 800px) {
-  .project-item img {
-    height: 160px;
-    width: 230px;
-  }
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   .project-layout {
     display: block;
   }
@@ -317,22 +264,13 @@ html {
     width: 100%;
   }
 
-  .project-item img {
-    height: 230px;
-    width: 370px;
-  }
-}
-@media (max-width: 480px) {
-  nav .links a {
-    font-size: 0.8rem;
+  .hover-panel .hover-text p {
+    display: none;
   }
 
-  .project-item img {
-    height: 140px;
-    width: 220px;
+
   }
 
-}
 /* about me */
 
 .about-me .container {
@@ -402,32 +340,8 @@ html {
 }
 
 
-
-/*.hire-item::after {*/
-/*  content: "";*/
-/*  display: block;*/
-/*  margin: 0 auto;*/
-/*  width: 50%;*/
-/*  border-bottom: 1px solid transparent;*/
-/*  padding-top: 2px;*/
-/*  margin-bottom: -1px;*/
-/*}*/
-
-/*.hire-item:hover::after {*/
-/*  content: "";*/
-/*  display: block;*/
-/*  margin: 0 auto;*/
-/*  width: 50%;*/
-/*  border-bottom: 1px solid #808080;*/
-/*  padding-top: 2px;*/
-/*  margin-bottom: -1px;*/
-/*}*/
-
-
 @media (max-width: 1080px) {
-  /*.hire-item p {*/
-  /*  font-size: 0.7rem;*/
-  /*}*/
+
   .hire-item {
     width: 33%;
   }
