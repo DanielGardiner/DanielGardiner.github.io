@@ -93,6 +93,10 @@ html {
     font-size: 2.2rem;
   }
 
+    .landing-panel nav a {
+      font-size: 0.9rem;
+  }
+
   .landing-panel nav {
     padding-bottom: 10px;
   }
@@ -245,6 +249,9 @@ html {
   z-index: 105;
 }
 
+#proj3-item img {
+    border: 1px solid black;
+}
 
 
 @media (max-width: 1200px) {
@@ -272,8 +279,7 @@ html {
     display: none;
   }
 
-
-  }
+}
 
 /* about me */
 
