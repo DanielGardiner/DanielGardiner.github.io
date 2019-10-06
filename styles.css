@@ -400,20 +400,29 @@ html {
 
 }
 
+
 @media (max-width: 580px) {
-  .hire-item {
-    width: 90%;
-  }
-
-  .hire-item:hover:after {
-    display: none;
-  }
-
-  .hire-item:after {
-    display: none;
-  }
+    .hire-item p {
+        font-size: 0.6rem;
+        margin: 10px auto;
+    }
 
 }
+
+/*@media (max-width: 580px) {*/
+/*  .hire-item {*/
+/*    width: 90%;*/
+/*  }*/
+
+/*  .hire-item:hover:after {*/
+/*    display: none;*/
+/*  }*/
+
+/*  .hire-item:after {*/
+/*    display: none;*/
+/*  }*/
+
+/*}*/
 
 
 /* skills */
