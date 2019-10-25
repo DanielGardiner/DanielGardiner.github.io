@@ -23,18 +23,26 @@ html {
 
 /* landing panel */
 
+.landing-panel-overlay {
+  background-color: rgba(0, 0, 0, 0.33);
+  height: 100%;
+  z-index: 100;
+}
+
 .landing-panel {
-  background-image: url("media/john-westrock-PDfe7H5GJR0-unsplash.jpg");
+  background-image: url("https://wallpaperaccess.com/full/17520.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat:no-repeat;
+  z-index: 1;
 }
+
 
 .landing-panel .container {
   text-align: center;
   margin: 0 auto;
   padding-top: 30px;
-  padding-bottom: 600px;
+  padding-bottom: 300px;
 }
 
 .landing-panel nav {
@@ -45,7 +53,7 @@ html {
 
 .landing-panel nav a {
   text-decoration: none;
-  color: black;
+  color: #ffffff;
   font-size: 1rem;
   margin: 0 50px 0 50px;
   padding: 10px;
@@ -53,21 +61,23 @@ html {
 }
 
 .landing-panel nav a:hover {
-  border: 2px solid #000000;
+  border: 2px solid #ffffff;
 }
 
 .landing-panel h1 {
   margin: 0;
   padding-bottom: 15px;
   font-size: 3rem;
-  color: #4d4d4d;
+  color: #ffffff;
+  text-shadow: 3px 3px #616cf0;
   font-weight: lighter;
 }
 
 .landing-panel h2 {
   margin: 0;
   font-size: 2rem;
-  color: #4d4d4d;
+  color: #ffffff;
+  text-shadow: 2px 2px #616cf0;
   font-weight: lighter;
 }
 
