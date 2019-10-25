@@ -253,6 +253,9 @@ html {
     border: 1px solid black;
 }
 
+#proj5-item img {
+  border: 1px solid black;
+}
 
 @media (max-width: 1200px) {
   .project-panel .container {
