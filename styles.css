@@ -122,6 +122,43 @@ html {
   }
 }
 
+/*stars*/
+
+/*svg {*/
+/*  position: relative;*/
+/*  top: 20px;*/
+/*  left: 10px;*/
+
+/*}*/
+
+.star-container {
+  position: relative;
+}
+
+svg {
+  position: absolute;
+  top: 20px;
+  /*left: 50px;*/
+  animation-name: moveCircle;
+  animation-duration: 3s;
+  left: 10px;
+}
+
+.star {
+  /*position: absolute;*/
+  fill: #ffffff;
+}
+
+@keyframes moveCircle {
+  from {
+    left: 10px;
+  }
+  to{
+    left: 1000px;
+    top: -600px;
+  }
+}
+
 /* project panel */
 
 .project-panel .container {
