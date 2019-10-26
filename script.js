@@ -23,9 +23,4 @@ $(function() {
         $('#proj6-hover').slideToggle(500)
     })
 
-
-    // $('#proj1-item').click(function () {
-    //     $('#proj1-hover').slideToggle(500)
-    // })
-
 })
