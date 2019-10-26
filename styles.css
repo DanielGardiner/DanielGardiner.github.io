@@ -100,7 +100,6 @@ html {
 
 @media (max-width: 650px) {
   .landing-panel {
-    height: 700px;
     text-align: center;
   }
 
