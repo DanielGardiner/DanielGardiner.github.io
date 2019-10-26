@@ -23,14 +23,6 @@ html {
 
 /* landing panel */
 
-.landing-panel-overlay {
-  /*background-color: rgba(0, 0, 0, 0.33);*/
-  height: 100%;
-  z-index: 100;
-  animation: fadein 3s;
-}
-
-
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
@@ -41,8 +33,9 @@ html {
   background-size: cover;
   background-position: center center;
   background-repeat:no-repeat;
-  height: 280px;
-  margin-bottom: 50px;
+  height: 160px;
+  margin-bottom: 120px;
+  border-bottom: 2px solid #000000;
   z-index: 1;
 }
 
@@ -62,7 +55,7 @@ html {
 
 .landing-panel nav a {
   text-decoration: none;
-  color: #ffffff;
+  color: #353535;
   font-size: 1rem;
   margin: 0 50px 0 50px;
   padding: 10px;
@@ -70,25 +63,25 @@ html {
 }
 
 .landing-panel nav a:hover {
-  border: 2px solid #ffffff;
+  border: 2px solid #353535;
 }
 
 .landing-panel h1 {
   margin: 0;
   padding-bottom: 15px;
   font-size: 3rem;
-  color: #ffffff;
-  text-shadow: 3px 3px #616cf0;
-  font-weight: lighter;
+  color: #353535;
+  text-shadow: 2px 2px #e7e7e7;
+  font-weight: bold;
 }
 
 
 .landing-panel h2 {
   margin: 0;
   font-size: 2rem;
-  color: #ffffff;
-  text-shadow: 2px 2px #616cf0;
-  font-weight: lighter;
+  color: #353535;
+  /*text-shadow: 2px 2px #e7e7e7;*/
+  font-weight: bold;
 }
 
 .landing-panel img {
@@ -102,6 +95,8 @@ html {
 @media (max-width: 650px) {
   .landing-panel {
     text-align: center;
+    height: 140px;
+    margin-bottom: 80px;
   }
 
   .landing-panel h1 {
@@ -130,6 +125,22 @@ html {
 
   }
 }
+
+@media (max-width: 520px) {
+  .landing-panel {
+    height: 130px;
+  }
+
+  .landing-panel h1{
+    font-size: 2.5rem;
+  }
+
+  .landing-panel h2 {
+    font-size: 2rem;
+  }
+
+}
+
 
 /* project panel */
 
@@ -308,8 +319,6 @@ html {
   .project-item {
     width: 100%;
   }
-
-
 }
 
 /* about me */
