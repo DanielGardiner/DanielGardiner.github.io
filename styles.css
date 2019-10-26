@@ -23,12 +23,13 @@ html {
 
 /* landing panel */
 
-.landing-panel-overlay {
-  /*background-color: rgba(0, 0, 0, 0.33);*/
-  height: 100%;
-  z-index: 100;
-  animation: fadein 3s;
-}
+/*.landing-panel-overlay {*/
+/*  !*background-color: rgba(0, 0, 0, 0.33);*!*/
+/*  position: relative;*/
+/*  height: 100%;*/
+/*  z-index: 100;*/
+/*  animation: fadein 3s;*/
+/*}*/
 
 
 @keyframes fadein {
@@ -44,6 +45,7 @@ html {
   height: 280px;
   border-bottom: 1px solid grey;
   margin-bottom: 50px;
+  position: relative;
   z-index: 1;
 }
 
@@ -53,6 +55,7 @@ html {
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 300px;
+  position: relative;
 }
 
 .landing-panel nav {
@@ -92,9 +95,27 @@ html {
   font-weight: lighter;
 }
 
+.landing-panel .profile-picture {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  animation-name: moveIn;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes moveIn {
+  from {left: -300px; opacity: 0}
+  to   {left: 15%; opacity: 1}
+}
+
 .landing-panel img {
   margin-top: 15px;
-  width: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 170px;
   height: auto;
   opacity: 0.7;
 }
