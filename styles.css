@@ -299,16 +299,23 @@ html {
 }
 
 .hover-panel .hover-links a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 2.5rem;
-    padding: 10px 20px;
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 0 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
 }
 
 .hover-panel .hover-links a:hover {
-    color: #ffff00;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: black;
+  transition: background-color 0.5s ease-out;
 }
-
 
 .project-item::before {
   position: absolute;
