@@ -183,7 +183,7 @@ html {
   100% { transform: translate( 0%, 0); }
 }
 
-.l {
+.left {
   animation-name: moveInL;
   animation-duration: 2s;
   animation-iteration-count: 1;
@@ -191,17 +191,13 @@ html {
   animation-fill-mode: forwards;
 }
 
-.r {
+.right {
   animation-name: moveInR;
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(0.5, 1.2, 0.5, 1.1);
   animation-fill-mode: forwards;
 }
-
-
-
-
 
 
 /* project panel */
@@ -359,11 +355,11 @@ html {
 }
 
 #proj3-item img {
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 
 #proj5-item img {
-  border: 1px solid black;
+  border: 1px solid #000000;
 }
 
 @media (max-width: 1200px) {
