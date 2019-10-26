@@ -179,6 +179,8 @@ html {
 .project-panel .container {
   margin: 0 auto;
   width: 85%;
+  animation-name: fadein;
+  animation-duration: 4s;
 }
 
 .project-layout {
@@ -294,8 +296,6 @@ html {
   width: 100%;
   height: auto;
 }
-
-
 
 #proj1-item:before {
   content: url("media/number_icons/one.svg");
