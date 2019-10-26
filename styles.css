@@ -116,7 +116,7 @@ html {
 
 .project-panel .container {
   margin: 0 auto;
-  width: 80%;
+  width: 85%;
 }
 
 .project-layout {
@@ -126,7 +126,7 @@ html {
 }
 
 .project-item {
-  width: 33.3%;
+  width: 45%;
   padding: 0 30px 25px 30px;
   position: relative;
   overflow: hidden;
@@ -134,7 +134,7 @@ html {
 
 .project-panel h6 {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 16px 0px 7px 0px;
 }
 
@@ -180,7 +180,7 @@ html {
 
 .project-panel .description {
   width: 100%;
-  padding: 0 10px;
+  padding: 15px 10px 0 10px;
 }
 
 .hover-container {
@@ -279,9 +279,9 @@ html {
     width: 90%;
   }
 
-  .project-item {
-    width: 50%;
-  }
+  /*.project-item {*/
+  /*  width: 50%;*/
+  /*}*/
 
 }
 
