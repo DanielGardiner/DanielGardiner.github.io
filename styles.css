@@ -37,11 +37,13 @@ html {
 }
 
 .landing-panel {
-  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  background-image: linear-gradient(#ffffff, #c9c8c8);
   background-size: cover;
   background-position: center center;
   background-repeat:no-repeat;
-  height: 350px;
+  height: 280px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 50px;
   z-index: 1;
 }
 
@@ -61,7 +63,7 @@ html {
 
 .landing-panel nav a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   font-size: 1rem;
   margin: 0 50px 0 50px;
   padding: 10px;
@@ -69,15 +71,15 @@ html {
 }
 
 .landing-panel nav a:hover {
-  border: 2px solid #ffffff;
+  border: 2px solid #000000;
 }
 
 .landing-panel h1 {
   margin: 0;
   padding-bottom: 15px;
   font-size: 3rem;
-  color: #ffffff;
-  text-shadow: 3px 3px #616cf0;
+  color: #1d1d1d;
+  text-shadow: 3px 3px rgba(155, 154, 153, 0.98);
   font-weight: lighter;
 }
 
@@ -85,8 +87,8 @@ html {
 .landing-panel h2 {
   margin: 0;
   font-size: 2rem;
-  color: #ffffff;
-  text-shadow: 2px 2px #616cf0;
+  color: #1d1d1d;
+  text-shadow: 2px 2px rgba(155, 154, 153, 0.98);
   font-weight: lighter;
 }
 
