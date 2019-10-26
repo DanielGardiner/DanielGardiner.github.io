@@ -61,7 +61,6 @@ html {
   padding: 10px;
   border: 2px solid transparent;
   font-weight: bold;
-  animation-name: fadein;
   animation-duration: 4s;
 }
 
@@ -76,7 +75,6 @@ html {
   color: #353535;
   text-shadow: 2px 2px #e7e7e7;
   font-weight: bold;
-  animation-name: fadein;
   animation-duration: 4s;
 }
 
@@ -86,7 +84,6 @@ html {
   font-size: 2rem;
   color: #353535;
   font-weight: bold;
-  animation-name: fadein;
   animation-duration: 4s;
 }
 
@@ -176,12 +173,42 @@ html {
   }
 }
 
+@keyframes moveInL {
+  0%   { transform: translate(-200%, 0); }
+  100% { transform: translate( 0%, 0); }
+}
+
+@keyframes moveInR {
+  0%   { transform: translate( 200%, 0); }
+  100% { transform: translate( 0%, 0); }
+}
+
+.l {
+  animation-name: moveInL;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.5, 1.2, 0.5, 1);
+  animation-fill-mode: forwards;
+}
+
+.r {
+  animation-name: moveInR;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.5, 1.2, 0.5, 1.1);
+  animation-fill-mode: forwards;
+}
+
+
+
+
+
+
 /* project panel */
 
 .project-panel .container {
   margin: 0 auto;
   width: 85%;
-  animation-name: fadein;
   animation-duration: 4s;
 }
 
