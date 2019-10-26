@@ -61,6 +61,8 @@ html {
   padding: 10px;
   border: 2px solid transparent;
   font-weight: bold;
+  animation-name: fadein;
+  animation-duration: 4s;
 }
 
 .landing-panel nav a:hover {
@@ -74,6 +76,8 @@ html {
   color: #353535;
   text-shadow: 2px 2px #e7e7e7;
   font-weight: bold;
+  animation-name: fadein;
+  animation-duration: 4s;
 }
 
 
@@ -81,8 +85,9 @@ html {
   margin: 0;
   font-size: 2rem;
   color: #353535;
-  /*text-shadow: 2px 2px #e7e7e7;*/
   font-weight: bold;
+  animation-name: fadein;
+  animation-duration: 4s;
 }
 
 .landing-panel img {
@@ -176,6 +181,8 @@ html {
 .project-panel .container {
   margin: 0 auto;
   width: 85%;
+  animation-name: fadein;
+  animation-duration: 4s;
 }
 
 .project-layout {
