@@ -1,25 +1,25 @@
 $(function() {
 
-    $('.hover-container').hover(function () {
+    $('#hover-container-proj1').hover(function () {
         $('#proj1-hover').slideToggle(500)
     })
 
-    $('#proj2-item').hover(function () {
+    $('#hover-container-proj2').hover(function () {
         $('#proj2-hover').slideToggle(500)
     })
 
-    $('#proj3-item').hover(function () {
+    $('#hover-container-proj3').hover(function () {
         $('#proj3-hover').slideToggle(500)
     })
 
-    $('#proj4-item').hover(function () {
+    $('#hover-container-proj4').hover(function () {
         $('#proj4-hover').slideToggle(500)
     })
-    $('#proj5-item').hover(function () {
+    $('#hover-container-proj5').hover(function () {
         $('#proj5-hover').slideToggle(500)
     })
 
-    $('#proj6-item').hover(function () {
+    $('#hover-container-proj6').hover(function () {
         $('#proj6-hover').slideToggle(500)
     })
 
