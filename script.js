@@ -23,6 +23,9 @@ $(function() {
         $('#proj6-hover').slideToggle(500)
     })
 
+
+
+
     $('#dropdown-button-proj1').click(function () {
         $('#dropdown-section-proj1').slideToggle(500)
     })
@@ -31,5 +34,20 @@ $(function() {
         $('#dropdown-section-proj2').slideToggle(500)
     })
 
+    $('#dropdown-button-proj3').click(function () {
+        $('#dropdown-section-proj3').slideToggle(500)
+    })
+
+    $('#dropdown-button-proj4').click(function () {
+        $('#dropdown-section-proj4').slideToggle(500)
+    })
+
+    $('#dropdown-button-proj5').click(function () {
+        $('#dropdown-section-proj5').slideToggle(500)
+    })
+
+    $('#dropdown-button-proj6').click(function () {
+        $('#dropdown-section-proj6').slideToggle(500)
+    })
 
 })

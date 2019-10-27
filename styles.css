@@ -71,13 +71,10 @@ html {
 }
 
 .landing-panel h1 {
-  /*font-family: Libre Baskerville,serif;*/
   margin: 0;
   padding-bottom: 15px;
   font-size: 3rem;
   color: #ffffff;
-  /*text-shadow: 2px 2px #c29337;*/
-  /*font-weight: bold;*/
   animation-duration: 4s;
 }
 
@@ -332,8 +329,6 @@ html {
   height: auto;
 }
 
-/*  HERE */
-
 .read-more {
   padding-top: 10px;
   text-align: center;
@@ -348,9 +343,6 @@ html {
 .dropdown-section {
   display: none;
 }
-
-/* HERE ^^ */
-
 
 #proj1-item:before {
   content: url("media/number_icons/one.svg");
