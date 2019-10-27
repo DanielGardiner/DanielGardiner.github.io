@@ -23,4 +23,9 @@ $(function() {
         $('#proj6-hover').slideToggle(500)
     })
 
+    $('.dropdown-button').hover(function () {
+        $('.dropdown-section').slideToggle(500)
+    })
+
+
 })

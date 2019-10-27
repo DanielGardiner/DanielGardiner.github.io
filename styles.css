@@ -242,13 +242,14 @@ html {
   background-color: #629197;
   border-radius: 5px;
   border: 1px solid rgba(108, 108, 108, 0.99);
-  box-shadow: 4px 5px #cfcfcf;
+  box-shadow: 3px 4px #cfcfcf;
 }
 
 .project-panel .language p {
   vertical-align: middle;
-  line-height: 15px;
+  line-height: 8px;
   padding: 5px;
+  font-size: 0.7rem;
 }
 
 .project-panel .heading {
@@ -329,7 +330,38 @@ html {
   height: auto;
 }
 
+/*HERE HERE: */
 
+.dropdown-button {
+  /*margin-bottom: 5px;*/
+
+}
+
+.dropdown-links {
+  margin-top: 10px;
+}
+
+.dropdown-links a {
+  vertical-align: middle;
+  line-height: 15px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin: 4px 4px;
+  color: white;
+  font-weight: bold;
+  background-color: #1842f5;
+  border-radius: 5px;
+  border: 1px solid rgba(108, 108, 108, 0.99);
+  box-shadow: 4px 5px #cfcfcf;
+}
+
+.dropdown-section {
+  /*display: none;*/
+  /*background-color: red;*/
+}
+
+/* ^^ HERE HERE ^^ */
 
 #proj1-item:before {
   content: url("media/number_icons/one.svg");
