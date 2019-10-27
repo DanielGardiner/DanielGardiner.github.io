@@ -235,7 +235,7 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 70%;
+  width: 100%;
 }
 
 .project-panel .language {
@@ -245,12 +245,12 @@ html {
   background-color: #629197;
   border-radius: 5px;
   border: 1px solid rgba(108, 108, 108, 0.99);
-  box-shadow: 4px 5px #cfcfcf;
+  box-shadow: 3px 4px #cfcfcf;
 }
 
 .project-panel .language p {
   vertical-align: middle;
-  line-height: 15px;
+  line-height: 10px;
   padding: 5px;
 }
 
@@ -388,6 +388,11 @@ html {
   .project-item {
     width: 100%;
   }
+
+  .project-panel .language p {
+    font-size: 0.7rem;
+  }
+
 }
 
 /* about me */
