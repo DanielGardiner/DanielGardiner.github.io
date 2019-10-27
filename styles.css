@@ -242,7 +242,7 @@ html {
   background-color: #629197;
   border-radius: 5px;
   border: 1px solid rgba(108, 108, 108, 0.99);
-  box-shadow: 3px 4px #cfcfcf;
+  /*box-shadow: 3px 4px #cfcfcf;*/
 }
 
 .project-panel .language p {
@@ -341,23 +341,52 @@ html {
   margin-top: 10px;
 }
 
-.dropdown-links a {
+.links .btn {
+  margin: 5px 10px;
+  border: 1px solid #000000;
+  font-weight: bold;
+}
+
+.links {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.link {
+  margin: 5px 5px;
+  font-weight: bold;
+  background-color: #e0bc62;
+  border-radius: 5px;
+  border: 1px solid rgba(108, 108, 108, 0.99);
+  box-shadow: 3px 4px #cfcfcf;
+  height: 30px;
+}
+
+.link a {
+  text-decoration: none;
+  color: white;
   vertical-align: middle;
   line-height: 15px;
   padding: 5px;
-  text-decoration: none;
-  font-size: 0.8rem;
-  margin: 4px 4px;
-  color: white;
-  font-weight: bold;
-  background-color: #1842f5;
-  border-radius: 5px;
-  border: 1px solid rgba(108, 108, 108, 0.99);
-  box-shadow: 4px 5px #cfcfcf;
+  font-size: 0.9rem;
+}
+
+.read-more {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: teal;
+}
+
+.read-more:hover {
+  cursor: pointer;
 }
 
 .dropdown-section {
-  /*display: none;*/
+  display: none;
   /*background-color: red;*/
 }
 
