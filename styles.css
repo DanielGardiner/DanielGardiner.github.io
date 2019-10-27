@@ -221,8 +221,8 @@ html {
   overflow: hidden;
   margin: 10px 10px;
   background-color: #f6f6f6;
-  border: 2px solid grey;
-  border-radius: 5px;
+  border: 2px solid #2c3040;
+  /*border-radius: 5px;*/
 }
 
 .project-panel h6 {
@@ -378,21 +378,17 @@ html {
   z-index: 105;
 }
 
-#proj3-item img {
-    border: 1px solid #000000;
-}
-
-#proj5-item img {
-  border: 1px solid #000000;
+#proj3-item img, #proj5-item img {
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
 }
 
 @media (max-width: 1200px) {
   .project-panel .container {
     width: 90%;
   }
-
 }
-
 
 @media (max-width: 750px) {
   .project-layout {
