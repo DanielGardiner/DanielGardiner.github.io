@@ -219,6 +219,10 @@ html {
   padding: 0 30px 25px 30px;
   position: relative;
   overflow: hidden;
+  margin: 10px 10px;
+  background-color: #f6f6f6;
+  border: 2px solid grey;
+  border-radius: 5px;
 }
 
 .project-panel h6 {
