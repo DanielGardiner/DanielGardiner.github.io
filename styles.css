@@ -204,7 +204,7 @@ html {
 
 .project-panel .container {
   margin: 0 auto;
-  width: 85%;
+  width: 95%;
   animation-duration: 4s;
 }
 
@@ -215,7 +215,7 @@ html {
 }
 
 .project-item {
-  width: 45%;
+  width: 33%;
   padding: 0 30px 25px 30px;
   position: relative;
   overflow: hidden;
@@ -228,7 +228,7 @@ html {
 }
 
 .project-panel .languages {
-  margin: 0 auto;
+  margin: 10px auto 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -249,6 +249,8 @@ html {
   vertical-align: middle;
   line-height: 10px;
   padding: 5px;
+  font-size: 0.9rem;
+  margin: 0 0 5px 0;
 }
 
 .project-panel .heading {
@@ -261,10 +263,9 @@ html {
   width: 100%;
 }
 
-.project-panel p {
+.project-panel .description p {
   font-size: 0.9rem;
-  margin-top: 0;
-  margin-bottom: 5px;
+  margin: 0 0 5px 0;
   line-height: 1.5;
 }
 
@@ -330,14 +331,29 @@ html {
 }
 
 .read-more {
-  padding-top: 10px;
-  text-align: center;
   font-size: 1rem;
+  font-weight: bold;
   color: teal;
+  margin: 0 10px;
+  padding-bottom: 2px;
+}
+
+.demo, .code {
+  text-decoration: none;
+  /*padding: 10px 5% 0 5%;*/
+  font-size: 1rem;
+  font-weight: bold;
+  color: #093066;
+  margin: 0 10px;
 }
 
 .read-more:hover {
   cursor: pointer;
+}
+
+.dropdown-buttons {
+  display: flex;
+  justify-content: center;
 }
 
 .dropdown-section {
@@ -382,9 +398,19 @@ html {
   border: 1px solid #000000;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
+  .read-more, .demo, .code {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1150px) {
   .project-panel .container {
     width: 90%;
+  }
+
+  .project-item {
+    width: 50%;
   }
 
 }
