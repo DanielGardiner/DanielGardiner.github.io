@@ -1,6 +1,6 @@
 $(function() {
 
-    $('#proj1-item').hover(function () {
+    $('.hover-container').hover(function () {
         $('#proj1-hover').slideToggle(500)
     })
 
@@ -22,5 +22,10 @@ $(function() {
     $('#proj6-item').hover(function () {
         $('#proj6-hover').slideToggle(500)
     })
+
+    $('#dropdown-button-proj1').hover(function () {
+        $('.description').slideToggle(500)
+    })
+
 
 })

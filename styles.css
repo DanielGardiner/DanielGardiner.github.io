@@ -329,6 +329,24 @@ html {
   height: auto;
 }
 
+/*  HERE */
+
+.read-more {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: teal;
+}
+
+.read-more:hover {
+  cursor: pointer;
+}
+
+.dropdown-section {
+  /*display: none;*/
+}
+
+/* HERE ^^ */
 
 
 #proj1-item:before {
