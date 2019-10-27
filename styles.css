@@ -216,12 +216,12 @@ html {
 
 .project-item {
   width: 45%;
-  padding: 0 30px 25px 30px;
+  /*padding: 0 30px 25px 30px;*/
   position: relative;
   overflow: hidden;
-  margin: 10px 10px;
+  margin: 20px;
   background-color: #f6f6f6;
-  border: 2px solid #2c3040;
+  /*border: 2px solid #2c3040;*/
   /*border-radius: 5px;*/
 }
 
@@ -379,9 +379,7 @@ html {
 }
 
 #proj3-item img, #proj5-item img {
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;
-    border-bottom: 1px solid #000000;
+  border: 1px solid #717171;
 }
 
 @media (max-width: 1200px) {
