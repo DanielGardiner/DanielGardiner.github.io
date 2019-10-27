@@ -23,9 +23,15 @@ $(function() {
         $('#proj6-hover').slideToggle(500)
     })
 
-    $('.dropdown-button').hover(function () {
-        $('.dropdown-section').slideToggle(500)
+    $('#dropdown-button-proj1').hover(function () {
+        $('#dropdown-section-proj1').slideToggle(500)
     })
+
+    $('#dropdown-button-proj2').hover(function () {
+        $('#dropdown-section-proj2').slideToggle(500)
+    })
+
+
 
 
 })
