@@ -5,7 +5,7 @@
 body {
   font-size: 62.5%;
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Bitter', serif;
   background-color: #e6e6e6;
 }
 
@@ -36,8 +36,8 @@ html {
   background-position: center center;
   background-repeat:no-repeat;
   height: 160px;
-  margin-bottom: 120px;
-  border-bottom: 4px solid #c29337;
+  margin-bottom: 110px;
+  border-bottom: 5px solid #c29337;
   z-index: 1;
 }
 
@@ -215,7 +215,7 @@ html {
 }
 
 .project-item {
-  width: 45%;
+  width: 30%;
   padding: 0 30px 25px 30px;
   position: relative;
   overflow: hidden;
@@ -342,36 +342,6 @@ html {
 
 .dropdown-section {
   display: none;
-}
-
-#proj1-item:before {
-  content: url("media/number_icons/one.svg");
-    z-index: 100;
-}
-
-#proj2-item:before {
-  content: url("media/number_icons/two.svg");
-  z-index: 101;
-}
-
-#proj3-item:before {
-  content: url("media/number_icons/three.svg");
-  z-index: 102;
-}
-
-#proj4-item:before {
-  content: url("media/number_icons/four.svg");
-  z-index: 103;
-}
-
-#proj5-item:before {
-  content: url("media/number_icons/five.svg");
-  z-index: 104;
-}
-
-#proj6-item:before {
-  content: url("media/number_icons/six.svg");
-  z-index: 105;
 }
 
 #proj3-item img {
