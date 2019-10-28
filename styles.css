@@ -37,7 +37,6 @@ html {
   background-repeat:no-repeat;
   height: 160px;
   margin-bottom: 120px;
-  border-bottom: 4px solid #c29337;
   z-index: 1;
 }
 
@@ -47,6 +46,12 @@ html {
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 300px;
+}
+
+
+.section2 {
+  border-top: 6px solid #c29337;
+  background-color: #e2e2e2;
 }
 
 .landing-panel nav {
@@ -72,7 +77,6 @@ html {
 
 .landing-panel h1 {
   margin: 0;
-  padding-bottom: 15px;
   font-size: 3rem;
   color: #ffffff;
   animation-duration: 4s;
@@ -89,9 +93,10 @@ html {
 
 .landing-panel img {
   margin-top: 15px;
-  width: 30px;
+  width: 300px;
   height: auto;
   opacity: 0.7;
+  border-radius: 60px;
 }
 
 
@@ -204,7 +209,7 @@ html {
 
 .project-panel .container {
   margin: 0 auto;
-  width: 85%;
+  width: 100%;
   animation-duration: 4s;
 }
 
@@ -215,10 +220,12 @@ html {
 }
 
 .project-item {
-  width: 45%;
-  padding: 0 30px 25px 30px;
+  width: 28%;
   position: relative;
   overflow: hidden;
+  background-color: #f1f1f1;
+  margin: 10px;
+  /*padding: 5px;*/
 }
 
 .project-panel h6 {
@@ -344,35 +351,35 @@ html {
   display: none;
 }
 
-#proj1-item:before {
-  content: url("media/number_icons/one.svg");
-    z-index: 100;
-}
+/*#proj1-item:before {*/
+/*  content: url("media/number_icons/one.svg");*/
+/*    z-index: 100;*/
+/*}*/
 
-#proj2-item:before {
-  content: url("media/number_icons/two.svg");
-  z-index: 101;
-}
+/*#proj2-item:before {*/
+/*  content: url("media/number_icons/two.svg");*/
+/*  z-index: 101;*/
+/*}*/
 
-#proj3-item:before {
-  content: url("media/number_icons/three.svg");
-  z-index: 102;
-}
+/*#proj3-item:before {*/
+/*  content: url("media/number_icons/three.svg");*/
+/*  z-index: 102;*/
+/*}*/
 
-#proj4-item:before {
-  content: url("media/number_icons/four.svg");
-  z-index: 103;
-}
+/*#proj4-item:before {*/
+/*  content: url("media/number_icons/four.svg");*/
+/*  z-index: 103;*/
+/*}*/
 
-#proj5-item:before {
-  content: url("media/number_icons/five.svg");
-  z-index: 104;
-}
+/*#proj5-item:before {*/
+/*  content: url("media/number_icons/five.svg");*/
+/*  z-index: 104;*/
+/*}*/
 
-#proj6-item:before {
-  content: url("media/number_icons/six.svg");
-  z-index: 105;
-}
+/*#proj6-item:before {*/
+/*  content: url("media/number_icons/six.svg");*/
+/*  z-index: 105;*/
+/*}*/
 
 #proj3-item img {
     border: 1px solid #000000;
