@@ -216,7 +216,7 @@ html {
 
 .project-item {
   width: 30%;
-  padding: 0 30px 25px 30px;
+  margin: 10px;
   position: relative;
   overflow: hidden;
 }
@@ -366,6 +366,8 @@ html {
 
   .project-item {
     width: 100%;
+    background-color: white;
+    margin: 50px 0;
   }
 
   .project-panel .language p {
