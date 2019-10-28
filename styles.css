@@ -31,9 +31,14 @@ html {
 
 /* landing panel */
 
+.navbar {
+  font-size: 1rem;
+}
+
+
 .new-landing-panel {
   /*background-color: #629197;*/
-  background: linear-gradient(140deg, #94c8eb, #629197);
+  background: linear-gradient(140deg, #a0d7fa, #629197);
   position: relative;
   padding-top: 100px;
 }
@@ -77,8 +82,6 @@ h1 {
 
 
 
-
-
 .new-landing-panel a {
   position: absolute;
   padding: 10px;
@@ -89,8 +92,11 @@ h1 {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  top: 350px;
-  left: 400px;
+  /*top: 350px;*/
+  /*left: 400px;*/
+  top: 45%;
+  left: 28%;
+
 
 }
 
@@ -115,6 +121,11 @@ h1 {
   }
 
 
+}
+
+.new-landing-panel2 img {
+  width: 100%;
+  height: auto;
 }
 
 /*@keyframes fadein {*/
