@@ -1,3 +1,9 @@
+
+let viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
+
+document.querySelector('.new-landing-panel').style.height = viewportHeight + 'px'
+
+
 $(function() {
 
     $('#hover-container-proj1').hover(function () {
