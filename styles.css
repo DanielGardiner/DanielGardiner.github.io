@@ -122,7 +122,8 @@ html {
 }
 
 
-@media (max-width: 710px) {
+
+@media (max-width: 850px) {
   .landing-panel .content {
     width: 90%;
     font-size: 4vw;
