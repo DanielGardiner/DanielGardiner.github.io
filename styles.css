@@ -46,10 +46,9 @@ html {
   height: auto;
   border-radius: 50%;
   /*width: 60%; */
-  min-width: 150px;
   -webkit-shape-outside: circle() border-box;
   shape-outside: circle() border-box;
-  margin-top: 110px;
+  margin-top: 50px;
   margin-right: 0px;
 }
 
@@ -78,14 +77,14 @@ html {
   font-size: 2rem;
   color: white;
   text-align: left;
-  width: 40%;
+  width: 45%;
   overflow: auto;
   height: 600px;
 }
 
 
 .landing-link {
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 .landing-panel a {
@@ -99,9 +98,156 @@ html {
 }
 
 
-@media (max-width: 900px) {
-
+@media (max-width: 1380px) {
+  .landing-panel .content {
+    width: 50%;
+  }
 }
+
+@media (max-width: 1230px) {
+  .landing-panel .content {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1110px) {
+  .landing-panel .content {
+    width: 65%;
+  }
+}
+
+@media (max-width: 950px) {
+  .landing-panel .content {
+    width: 70%;
+  }
+}
+
+@media (max-width: 850px) {
+  .landing-panel .content {
+    width: 75%;
+  }
+}
+
+@media (max-width: 800px) {
+  .landing-panel .content {
+    width: 85%;
+  }
+}
+
+@media (max-width: 710px) {
+  .landing-panel .content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 670px) {
+  .landing-panel .content {
+    width: 95%;
+    font-size: 1.6rem;
+  }
+
+  #circle-shape-example {
+    margin-left: 75px;
+  }
+
+  #circle-shape-example .curve {
+    width: 250px;
+    margin-right: 90px;
+  }
+
+  .landing-link {
+    margin-top: 50px;
+  }
+
+  .landing-panel a {
+    font-size: 1.1rem;
+  }
+}
+
+
+
+
+/*@media (max-width: 400px) {*/
+/*  .landing-panel .content {*/
+/*    width: 95%;*/
+/*  }*/
+/*}*/
+
+
+
+@media (max-width: 640px) {
+  .landing-panel .content {
+    width: 100%;
+    font-size: 1.7rem;
+    margin-left: 40px;
+  }
+
+  #circle-shape-example {
+    margin-left: 25px;
+  }
+
+  #circle-shape-example .curve {
+    width: 250px;
+    margin-top: 50px;
+  }
+
+  .landing-panel a {
+    font-size: 1.3rem;
+    margin-top: 22px;
+    border: 2px solid white;
+  }
+}
+
+@media (max-width: 570px) {
+  .landing-panel .content {
+    font-size: 1.4rem;
+  }
+
+  .landing-panel a {
+    font-size: 1rem;
+  }
+}
+
+
+/*@media (max-width: 640px) {*/
+/*  .landing-panel .content {*/
+/*    width: 100%;*/
+/*    font-size: 1rem;*/
+/*  }*/
+
+/*  #circle-shape-example {*/
+/*    margin-left: 25px;*/
+/*  }*/
+
+/*  #circle-shape-example .curve {*/
+/*    width: 130px;*/
+/*    margin-right: 35px;*/
+/*    margin-top: 26px;*/
+/*  }*/
+
+/*  .landing-link {*/
+/*    margin-top: 25px;*/
+/*  }*/
+
+/*  .landing-panel a {*/
+/*    font-size: 0.6rem;*/
+/*    margin-top: 22px;*/
+/*    border: 2px solid white;*/
+/*  }*/
+/*}*/
+
+
+/*@media (max-width: 450px) {*/
+/*  .landing-panel .content {*/
+/*    width: 95%;*/
+/*  }*/
+/*}*/
+
+/*@media (max-width: 900px) {*/
+/*  .landing-panel .content {*/
+/*    width: 80%;*/
+/*  }*/
+/*}*/
 
 /*@keyframes fadein {*/
 /*  from { opacity: 0; }*/
