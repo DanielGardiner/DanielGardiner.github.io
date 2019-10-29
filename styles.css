@@ -105,6 +105,7 @@ html {
 
   #circle-shape-example .curve {
     width: 40vw;
+    margin-right: 30px;
   }
 
   .landing-panel a {
