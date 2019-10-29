@@ -21,6 +21,7 @@ html {
   display:inline-block;
   vertical-align:middle;
 }
+
 .side-borders:before {
   margin-left:-100%;
 }
@@ -28,6 +29,41 @@ html {
 .side-borders:after {
   margin-right:-100%;
 }
+
+
+
+.content {
+  font-size: 2rem;
+  text-align: left;
+  width: 47%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+#circle-shape-example {
+  font-family: Open Sans, sans-serif;
+  /*margin: 2rem;*/
+}
+#circle-shape-example p {
+  margin: 0;
+  line-height: 1.8;
+  font-family: 'Bitter', serif;
+
+}
+#circle-shape-example .curve {
+  float: right;
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  shape-outside:circle();
+  /*width: 60%; */
+  min-width: 150px;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+  margin-top: 70px;
+  margin-right: 40px;
+}
+
 
 /* landing panel */
 
@@ -39,8 +75,8 @@ html {
 .new-landing-panel {
   /*background-color: #629197;*/
   background: linear-gradient(140deg, #a0d7fa, #629197);
-  position: relative;
-  padding-top: 100px;
+  padding: 100px 0 50px 0;
+  overflow: auto;
 }
 .highlight {
   color: #ffea16;
@@ -56,34 +92,16 @@ h1 {
   color: white;
 }
 
-.line1 {
-  position: absolute;
-  /*top: 100px;*/
-  top: 11%;
-  /*left: 400px;*/
-  left: 28%;
-}
-
-.line2 {
-  position: absolute;
-  /*top: 160px;*/
-  top: 17%;
-  /*left: 400px;*/
-  left: 28%;
-}
-
-.line3 {
-  position: absolute;
-  /*top: 220px;*/
-  top: 23%;
-  /*left: 400px;*/
-  left: 28%;
+.new-landing-panel .content {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 2rem;
+  color: white;
 }
 
 
 
 .new-landing-panel a {
-  position: absolute;
   padding: 10px;
   font-size: 1.5rem;
   border-radius: 4px;
@@ -92,23 +110,14 @@ h1 {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  /*top: 350px;*/
-  /*left: 400px;*/
-  top: 45%;
-  left: 28%;
-
-
 }
 
 .new-landing-panel img {
-  border-radius: 100%;
-  width: 500px;
+  float: right;
+  width: 300px;
   height: auto;
-  position: absolute;
-  top: 20%;
-  left: 48%;
-  /*margin-top: 50px;*/
-  /*margin-left: 700px;*/
+  border-radius: 50%;
+  shape-outside:circle();
 }
 
 @media (max-width: 900px) {
@@ -119,8 +128,6 @@ h1 {
   .new-landing-panel img {
     width: 250px;
   }
-
-
 }
 
 .new-landing-panel2 img {

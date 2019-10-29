@@ -1,7 +1,9 @@
 
+let navHeight = 56
+
 let viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
 
-document.querySelector('.new-landing-panel').style.height = viewportHeight + 'px'
+// document.querySelector('.new-landing-panel').style.height = (viewportHeight - navHeight) + 'px'
 
 
 $(function() {
