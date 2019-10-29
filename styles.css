@@ -111,10 +111,29 @@ html {
   .landing-panel a {
     font-size: 3vw;
   }
+}
 
+@media (max-width: 615px) {
+  .landing-panel .content {
+    width: 90%;
+    font-size: 5vw;
   }
 
+  #circle-shape-example .curve {
+    width: 43vw;
+    margin-right: 37px;
+    margin-top: 8vw;
+  }
 
+  .landing-link {
+    margin-top: 6vw;
+  }
+
+  .landing-panel a {
+    font-size: 3.5vw;
+  }
+
+}
 
 
 
