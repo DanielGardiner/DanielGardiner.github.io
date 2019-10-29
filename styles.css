@@ -63,7 +63,7 @@ html {
 .landing-panel {
   /*background-color: #629197;*/
   background: linear-gradient(140deg, #a0d7fa, #629197);
-  padding: 100px 0 50px 0;
+  padding: 100px 0 0 0;
   overflow: auto;
 }
 
@@ -102,7 +102,6 @@ html {
     width: 80%;
     font-size: 3.5vw;
     padding-left: 50px;
-
   }
 
   #circle-shape-example .curve {
@@ -146,7 +145,19 @@ html {
 
 }
 
+@media (max-width: 850px) {
+  .landing-panel .content {
+    height: 450px;
+  }
+}
+
 @media (max-width: 440px) {
+  .landing-panel .content {
+    width: 100%;
+    font-size: 5vw;
+    height: 300px;
+  }
+
   #circle-shape-example .curve {
     margin-right: 25px;
   }
@@ -155,8 +166,6 @@ html {
     font-size: 2vw;
     border: 1px solid white;
   }
-
-
 }
 
 /*@media (max-width: 1380px) {*/
