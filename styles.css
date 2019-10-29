@@ -100,23 +100,33 @@ html {
 @media (max-width: 1100px) {
   .landing-panel .content {
     width: 80%;
-    font-size: 4vw;
+    font-size: 3.5vw;
+    padding-left: 50px;
+
   }
 
   #circle-shape-example .curve {
-    width: 40vw;
-    margin-right: 30px;
+    width: 38vw;
+    margin-top: 7vw;
+    margin-right: 70px;
+  }
+
+  .landing-link {
+    margin-top: 6vw;
   }
 
   .landing-panel a {
-    font-size: 3vw;
+    font-size: 2.5vw;
+    border: 2px solid white;
   }
 }
 
-@media (max-width: 615px) {
+
+@media (max-width: 710px) {
   .landing-panel .content {
     width: 90%;
-    font-size: 5vw;
+    font-size: 4vw;
+    padding-left: 9vw;
   }
 
   #circle-shape-example .curve {
@@ -130,12 +140,23 @@ html {
   }
 
   .landing-panel a {
-    font-size: 3.5vw;
+    font-size: 2.2vw;
   }
 
 }
 
+@media (max-width: 440px) {
+  #circle-shape-example .curve {
+    margin-right: 25px;
+  }
 
+  .landing-panel a {
+    font-size: 2vw;
+    border: 1px solid white;
+  }
+
+
+}
 
 /*@media (max-width: 1380px) {*/
 /*  .landing-panel .content {*/
