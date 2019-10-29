@@ -99,17 +99,19 @@ html {
 
 @media (max-width: 1100px) {
   .landing-panel .content {
-    width: 55%;
-    font-size: 3vw;
-
+    width: 80%;
+    font-size: 4vw;
   }
-
-
 
   #circle-shape-example .curve {
-    width: 30vw;
+    width: 40vw;
   }
-}
+
+  .landing-panel a {
+    font-size: 3vw;
+  }
+
+  }
 
 
 
