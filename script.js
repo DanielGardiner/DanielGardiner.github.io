@@ -34,9 +34,6 @@ $(function() {
         $('#proj6-hover').slideToggle(400)
     })
 
-
-
-
     $('#dropdown-button-proj1').click(function () {
         $('#dropdown-section-proj1').slideToggle(500)
     })
