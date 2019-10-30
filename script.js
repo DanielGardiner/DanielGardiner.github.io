@@ -1,35 +1,37 @@
 
+let navHeight = 56;
+
 let viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
 
 let landingPanelContent = document.querySelector('.content').offsetHeight
 
-let updatedLandingPanelHeight = Math.max(viewportHeight, landingPanelContent + 100)
+let updatedLandingPanelHeight = Math.max(viewportHeight - navHeight, landingPanelContent + 100)
 
 document.querySelector('.landing-panel').style.height = updatedLandingPanelHeight + 'px'
 
 $(function() {
 
     $('#hover-container-proj1').hover(function () {
-        $('#proj1-hover').slideToggle(500)
+        $('#proj1-hover').slideToggle(400)
     })
 
     $('#hover-container-proj2').hover(function () {
-        $('#proj2-hover').slideToggle(500)
+        $('#proj2-hover').slideToggle(400)
     })
 
     $('#hover-container-proj3').hover(function () {
-        $('#proj3-hover').slideToggle(500)
+        $('#proj3-hover').slideToggle(400)
     })
 
     $('#hover-container-proj4').hover(function () {
-        $('#proj4-hover').slideToggle(500)
+        $('#proj4-hover').slideToggle(400)
     })
     $('#hover-container-proj5').hover(function () {
-        $('#proj5-hover').slideToggle(500)
+        $('#proj5-hover').slideToggle(400)
     })
 
     $('#hover-container-proj6').hover(function () {
-        $('#proj6-hover').slideToggle(500)
+        $('#proj6-hover').slideToggle(400)
     })
 
 

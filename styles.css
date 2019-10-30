@@ -1,3 +1,6 @@
+
+/* all page */
+
 * {
   box-sizing: border-box;
 }
@@ -12,6 +15,8 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* title side bars */
 
 .side-borders:before, .side-borders:after {
   content:'';
@@ -29,6 +34,8 @@ html {
 .side-borders:after {
   margin-right:-100%;
 }
+
+/* to sort out */
 
 #circle-shape-example {
   font-family: Open Sans, sans-serif;
@@ -61,7 +68,6 @@ html {
 
 
 .landing-panel {
-  /*background-color: #629197;*/
   background: linear-gradient(140deg, #a0d7fa, #629197);
   padding: 100px 0 0 0;
   overflow: auto;
@@ -620,7 +626,7 @@ html {
   margin: 4px 4px;
   color: white;
   font-weight: bold;
-  background-color: #629197;
+  background-color: #75a6bf;
   border-radius: 5px;
   border: 1px solid rgba(108, 108, 108, 0.99);
   box-shadow: 3px 4px #adadad;
