@@ -514,6 +514,29 @@ html {
   width: auto;
 }
 
+.bounce {
+  animation-name: bounceAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounceAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+
+
+}
+
 @media (max-width: 850px) {
   .skills-panel .container {
     width: 100%;
