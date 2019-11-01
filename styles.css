@@ -37,17 +37,16 @@ html {
 
 /* to sort out */
 
-#circle-shape-example {
-  font-family: Open Sans, sans-serif;
-}
-#circle-shape-example p {
+.content  p {
   margin: 0;
   line-height: 1.8;
   font-family: 'Bitter', serif;
 }
 
 
-#circle-shape-example .curve {
+
+
+.profile-picture {
   float: right;
   width: 25vw;
   height: auto;
@@ -110,7 +109,7 @@ html {
     padding-left: 50px;
   }
 
-  #circle-shape-example .curve {
+  .profile-picture {
     width: 38vw;
     margin-top: 7vw;
     margin-right: 70px;
@@ -135,7 +134,7 @@ html {
     padding-left: 9vw;
   }
 
-  #circle-shape-example .curve {
+  .profile-picture {
     width: 43vw;
     margin-right: 37px;
     margin-top: 8vw;
@@ -164,7 +163,7 @@ html {
     height: 300px;
   }
 
-  #circle-shape-example .curve {
+  .profile-picture {
     margin-right: 25px;
   }
 
