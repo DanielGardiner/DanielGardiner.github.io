@@ -62,7 +62,7 @@ html {
 }
 
 .landing-link a {
-  font-family: Open Sans, sans-serif;
+  font-family: 'Bitter', serif;
 }
 
 .profile-picture {
@@ -169,6 +169,40 @@ html {
   }
 }
 
+/* welcome text */
+
+.welcome-text .container {
+  width: 70%;
+  padding: 80px 0 60px 0;
+  margin: 0 auto 0 auto;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 2.3;
+}
+
+.welcome-text-emphasize {
+  color: purple;
+  font-weight: bold;
+}
+
+#quote-img {
+  width: 60px;
+  height: auto;
+}
+
+@media (max-width: 750px) {
+  .welcome-text .container {
+    width: 90%;
+  }
+
+  #quote-img {
+    width: 30px;
+  }
+}
+
+
 /* project panel */
 
 .project-panel .container {
@@ -191,7 +225,8 @@ html {
 }
 
 .project-panel h3 {
-  padding: 50px 0 20px 0;
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .project-panel h6 {
