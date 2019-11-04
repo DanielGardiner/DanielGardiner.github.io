@@ -335,13 +335,13 @@ html {
 
 @media (max-width: 750px) {
   .project-layout {
-    display: block;
+    width: 100%;
   }
 
   .project-item {
-    width: 100%;
+    width: 80%;
     background-color: #ffffff;
-    margin: 50px 0;
+    margin: 15px 0;
   }
 
   .project-panel .language p {
