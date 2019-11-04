@@ -1,43 +1,67 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Courgette|Noticia+Text|Patua+One|Song+Myung&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
-    <script src="script.js" defer></script>
     <link rel="stylesheet" href="normalize.css" type="text/css" />
     <link rel="stylesheet" href="styles.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daniel Gardiner Portfolio</title>
+      <script src="script.js" defer></script>
+      <title>Daniel Gardiner Portfolio</title>
   </head>
   <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto mr-4">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hire Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <!-- landing panel -->
 
-    <div class="landing-panel">
-      <div class="container">
-
-        <!-- nav -->
-
-        <nav>
-          <div class="links"><a href="#heading">PROJECTS</a></div>
-          <div class="links"><a href="#about-me">ABOUT ME</a></div>
-          <div class="links"><a href="#hire-me">HIRE ME</a></div>
-        </nav>
-
-        <!-- main title -->
-
-        <div class="left"><h1>DANIEL GARDINER</h1></div>
-        <div class="right"><h2>WEB DEVELOPER</h2></div>
+  <div class="landing-panel">
+    <div class="content">
+      <div id="circle-shape-example">
+        <img src="media/img_me3.png" alt="A photograph of sliced kiwifruit on a while plate" class="profile-picture">
+        <p>Hi i'm <span class="highlight">Daniel Gardiner</span>,</p>
+        <p>a Web Developer</p>
+        <p>based in Bristol</p>
+        <div class="landing-link">
+          <a href="#project">Find out more</a>
+        </div>
       </div>
     </div>
+  </div>
+
 
     <!-- project panel -->
 
     <div class="project-panel">
       <div class="container">
-        <div id="heading" class="heading"><h3>PROJECTS</h3></div>
+        <div id="heading" class="heading">
+          <h3 class="side-borders" id="project">PROJECTS</h3></div>
         <div class="project-layout">
 
           <div class="project-item" id="proj1-item">
-            <div class="hover-container">
+            <div class="hover-container" id="hover-container-proj1">
             <img src="media/img_pilotshop.png" alt=" "/>
              <div class="hover-panel" id="proj1-hover">
                 <div class="hover-links">
@@ -51,13 +75,19 @@
               <div class="language"><p>HTML</p></div>
               <div class="language"><p>CSS</p></div>
             </div>
-            <div class="description">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores autem consequatur dignissimos eos ex quis ratione repellat unde. Adipisci aspernatur culpa debitis ipsam provident rerum soluta velit. Deserunt, quidem temporibus!</p>
+            <div id="dropdown-button-proj1">
+              <p class="read-more">Read more ></p>
+            </div>
+            <div class="dropdown-section" id="dropdown-section-proj1">
+              <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores autem consequatur dignissimos eos ex quis ratione repellat unde. Adipisci aspernatur culpa debitis ipsam provident rerum soluta velit. Deserunt, quidem temporibus!</p>
+              </div>
             </div>
           </div>
 
+
           <div class="project-item" id="proj2-item">
-            <div class="hover-container">
+            <div class="hover-container" id="hover-container-proj2">
               <img src="media/img_collectorapp.png" alt=" "/>
               <div class="hover-panel" id="proj2-hover">
                 <div class="hover-links">
@@ -73,13 +103,18 @@
               <div class="language"><p>PHP</p></div>
               <div class="language"><p>mySQL</p></div>
             </div>
-            <div class="description">
-              <p>Produced an application for users to collect and store items built using HTML, CSS, PHP and mySQL including unit testing using PHPUnit</p>
+            <div id="dropdown-button-proj2">
+              <p class="read-more">Read more ></p>
+            </div>
+            <div class="dropdown-section" id="dropdown-section-proj2">
+              <div class="description">
+                <p>Produced an application for users to collect and store items built using HTML, CSS, PHP and mySQL including unit testing using PHPUnit</p>
+              </div>
             </div>
           </div>
 
           <div class="project-item" id="proj3-item">
-            <div class="hover-container">
+            <div class="hover-container" id="hover-container-proj3">
               <img src="media/img_spot_the_dif.png" alt=" "/>
               <div class="hover-panel" id="proj3-hover">
                 <div class="hover-links">
@@ -94,13 +129,18 @@
               <div class="language"><p>CSS</p></div>
               <div class="language"><p>JavaScript</p></div>
             </div>
-            <div class="description">
-              <p>Produced a simple spot the difference game using JavaScript</p>
+            <div id="dropdown-button-proj3">
+              <p class="read-more">Read more ></p>
+            </div>
+            <div class="dropdown-section" id="dropdown-section-proj3">
+              <div class="description">
+                <p>Produced a simple spot the difference game using JavaScript</p>
+              </div>
             </div>
           </div>
 
           <div class="project-item" id="proj4-item">
-            <div class="hover-container">
+            <div class="hover-container" id="hover-container-proj4">
               <img src="media/img_paintapp.png" alt=" "/>
               <div class="hover-panel" id="proj4-hover">
                 <div class="hover-links">
@@ -113,16 +153,20 @@
             <div class="languages">
               <div class="language"><p>HTML</p></div>
               <div class="language"><p>CSS</p></div>
-              <div class="language"><p>HTML</p></div>
-              <div class="language"><p>CSS</p></div>
+              <div class="language"><p>JavaScript</p></div>
             </div>
-            <div class="description">
-              <p>Produced a paint application, users can select a canvas size, paint onto the canvas and erase. The app was built using HTML, CSS, and JavaScript</p>
+            <div id="dropdown-button-proj4">
+              <p class="read-more">Read more ></p>
+            </div>
+            <div class="dropdown-section" id="dropdown-section-proj4">
+              <div class="description">
+                <p>Produced a paint application, users can select a canvas size, paint onto the canvas and erase. The app was built using HTML, CSS, and JavaScript</p>
+              </div>
             </div>
           </div>
 
           <div class="project-item" id="proj5-item">
-            <div class="hover-container">
+            <div class="hover-container" id="hover-container-proj5">
               <img src="media/img_calculator.png" alt=" "/>
               <div class="hover-panel" id="proj5-hover">
                 <div class="hover-links">
@@ -138,13 +182,18 @@
               <div class="language"><p>Bootstrap</p></div>
               <div class="language"><p>TypeScript</p></div>
             </div>
-            <div class="description">
-              <p>Produced a finance calculator to calculate loan repayments, this project used Gulp to automatically run a SASS compiler and a TypeScript transpiler, use of bootstrap to style the page and use of the handlebars templating library</p>
+            <div id="dropdown-button-proj5">
+              <p class="read-more">Read more ></p>
+            </div>
+            <div class="dropdown-section" id="dropdown-section-proj5">
+              <div class="description">
+                <p>Produced a finance calculator to calculate loan repayments, this project used Gulp to automatically run a SASS compiler and a TypeScript transpiler, use of bootstrap to style the page and use of the handlebars templating library</p>
+              </div>
             </div>
           </div>
 
           <div class="project-item" id="proj6-item">
-            <div class="hover-container">
+            <div class="hover-container" id="hover-container-proj6">
               <img src="media/img_solar_system.png" alt=" "/>
               <div class="hover-panel" id="proj6-hover">
                 <div class="hover-links">
@@ -157,25 +206,25 @@
             <div class="languages">
               <div class="language"><p>HTML</p></div>
               <div class="language"><p>CSS</p></div>
-              <div class="language"><p>HTML</p></div>
-              <div class="language"><p>CSS</p></div>
             </div>
-            <div class="description">
-              <p>Produced an animated SVG image representing a mini solar system </p>
+            <div id="dropdown-button-proj6">
+              <p class="read-more">Read more ></p>
+            </div>
+            <div class="dropdown-section" id="dropdown-section-proj6">
+              <div class="description">
+                <p>Produced an animated SVG image representing a mini solar system </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="page-break"></div>
-
-
     <!-- about me -->
 
     <div class="about-me">
       <div class="container">
-        <h3 id="about-me">ABOUT ME</h3>
+        <h3 id="about-me" class="side-borders">ABOUT ME</h3>
         <p>
           I am a recent graduate of the Maydan Academy Full Stack bootcamp.
           During the bootcamp I have developed skills in [x, y, z], and
@@ -191,13 +240,11 @@
       </div>
     </div>
 
-    <div class="page-break"></div>
-
     <!-- hire me -->
 
     <div class="hire-me">
       <div class="container">
-        <h3 id="hire-me">HIRE ME</h3>
+        <h3 id="hire-me" class="side-borders">HIRE ME</h3>
 
         <div class="hire-me-layout">
           <div class="hire-item">
@@ -223,7 +270,7 @@
 
           <div class="hire-item">
             <a href="Daniel_Gardiner_CV_20170801.docx" download>
-              <img src="media/doc_icon.png" id="doc-icon" alt="document icon" />
+              <img src="media/doc_icon.png" id="doc-icon" class="bounce" alt="document icon" />
               <p>CV</p>
             </a>
           </div>
@@ -242,14 +289,11 @@
       </div>
     </div>
 
-
-    <div class="page-break"></div>
-
     <!-- skills -->
 
     <div class="skills-panel">
       <div class="container">
-        <h3>Skills</h3>
+        <h3 class="side-borders">Skills</h3>
         <div class="skills-layout">
           <div class="skills-item">
             <img src="media/skill_logos/html_2.png" alt="html logo" />
