@@ -36,7 +36,15 @@ $(function() {
 
     $('#dropdown-button-proj1').click(function () {
         $('#dropdown-section-proj1').slideToggle(500)
+        if ($('#proj1-arrow').css( "transform" ) == 'none' ){
+            $('#proj1-arrow').css("transform","rotate(180deg)")
+        } else {
+            $('#proj1-arrow').css("transform","")
+        }
+        // $('.arrow').addClass('active')
     })
+
+
 
     $('#dropdown-button-proj2').click(function () {
         $('#dropdown-section-proj2').slideToggle(500)
@@ -57,5 +65,13 @@ $(function() {
     $('#dropdown-button-proj6').click(function () {
         $('#dropdown-section-proj6').slideToggle(500)
     })
+
+    $('.panel-collapse').on('show.bs.collapse', function () {
+        $(this).siblings('.panel-heading').addClass('active');
+    });
+
+    $('.panel-collapse').on('hide.bs.collapse', function () {
+        $(this).siblings('.panel-heading').removeClass('active');
+    });
 
 })
