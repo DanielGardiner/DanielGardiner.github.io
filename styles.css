@@ -462,20 +462,9 @@ html {
   margin: 25px auto;
 }
 
-.hire-item:after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 40%;
-  padding-top: 10px;
-  border-bottom: 2px solid #ffffff;
+.icon {
+  font-size: 5rem;
 }
-
-
-.hire-item:hover:after {
-  border-bottom: 2px solid #c4c4c4;
-}
-
 
 @media (max-width: 1080px) {
   .hire-item p {
@@ -499,7 +488,6 @@ html {
     width: 45%;
   }
 
-
   .hire-item a {
     display: flex;
     flex-direction: column;
@@ -508,8 +496,6 @@ html {
   .hire-item p {
     font-size: 1.2rem;
   }
-
-
 }
 
 
@@ -518,6 +504,10 @@ html {
         font-size: 0.6rem;
         margin: 10px auto;
     }
+
+  .icon {
+    font-size: 3rem;
+  }
 
 }
 
