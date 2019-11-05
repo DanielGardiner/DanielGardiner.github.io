@@ -36,12 +36,11 @@ $(function() {
 
     $('#dropdown-button-proj1').click(function () {
         $('#dropdown-section-proj1').slideToggle(500)
-        if ($('#proj1-arrow').css( "transform" ) == 'none' ){
-            $('#proj1-arrow').css("transform","rotate(180deg)")
+        if ($('#proj1-arrow').css("transform") == 'none'){
+            $('#proj1-arrow').css("transform", "rotate(180deg)")
         } else {
-            $('#proj1-arrow').css("transform","")
+            $('#proj1-arrow').css("transform", "")
         }
-        // $('.arrow').addClass('active')
     })
 
 
