@@ -16,6 +16,18 @@ html {
   scroll-behavior: smooth;
 }
 
+/*experiment*/
+
+#arrow-box {
+  position: relative;
+}
+#twist-arrow {
+  transform: rotate(90deg);
+  position: absolute;
+  left: 5px;
+  font-weight: bolder;
+}
+
 /* title side bars */
 
 .side-borders:before, .side-borders:after {
