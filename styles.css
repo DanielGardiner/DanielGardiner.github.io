@@ -16,33 +16,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/*experiment*/
-
-.arrow-box {
-  position: relative;
-}
-
-.arrow {
-  color: teal;
-  position: absolute;
-  top: 3px;
-  left: 4px;
-  font-weight: bolder;
-  transition-property: transform;
-  transition-duration: 1s;
-  font-size: 0.7rem;
-  z-index: -1;
-}
-
-.arrow:active {
-  transform: rotate(-90deg);
-}
-
-
-/*.read-more {*/
-/*  z-index: -2;*/
-/*}*/
-
 /* title side bars */
 
 .side-borders:before, .side-borders:after {
@@ -76,13 +49,11 @@ html {
   overflow: auto;
 }
 
-
 .content p {
   margin: 0;
   line-height: 1.8;
   font-family: 'Bitter', serif;
 }
-
 
 .landing-link {
   margin-top: 3vw;
@@ -191,7 +162,6 @@ html {
   }
 
   .landing-panel a {
-    /*font-size: 3.5vw;*/
     border: 2px solid #ffffff;
   }
 }
@@ -228,7 +198,6 @@ html {
     width: 30px;
   }
 }
-
 
 /* project panel */
 
@@ -365,7 +334,6 @@ html {
   height: auto;
 }
 
-
 .read-more {
   padding-top: 10px;
   text-align: center;
@@ -375,6 +343,26 @@ html {
 
 .read-more:hover {
   cursor: pointer;
+}
+
+.arrow-box {
+  position: relative;
+}
+
+.arrow {
+  color: teal;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  font-weight: bolder;
+  transition-property: transform;
+  transition-duration: 1s;
+  font-size: 0.7rem;
+  z-index: -1;
+}
+
+.arrow:active {
+  transform: rotate(-90deg);
 }
 
 .dropdown-section {
@@ -394,7 +382,6 @@ html {
     width: 45%;
   }
 }
-
 
 @media (max-width: 750px) {
   .project-layout {
@@ -444,6 +431,7 @@ html {
     width: 100%;
   }
 }
+
 /* hire me */
 
 .hire-me .container {
@@ -497,11 +485,9 @@ html {
   border-bottom: 2px solid #ffffff;
 }
 
-
 .hire-item:hover:after {
   border-bottom: 2px solid #c4c4c4;
 }
-
 
 @media (max-width: 1080px) {
   .hire-item p {
@@ -511,7 +497,6 @@ html {
   .hire-item {
     margin-bottom: 20px;
   }
-
 }
 
 @media (max-width: 870px) {
@@ -525,7 +510,6 @@ html {
     width: 45%;
   }
 
-
   .hire-item a {
     display: flex;
     flex-direction: column;
@@ -534,8 +518,6 @@ html {
   .hire-item p {
     font-size: 1.2rem;
   }
-
-
 }
 
 
@@ -544,7 +526,6 @@ html {
         font-size: 0.6rem;
         margin: 10px auto;
     }
-
 }
 
 
@@ -596,8 +577,6 @@ html {
   100% {
     transform: translateY(0);
   }
-
-
 }
 
 @media (max-width: 850px) {
