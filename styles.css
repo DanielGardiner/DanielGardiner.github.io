@@ -20,7 +20,6 @@ html {
 
 .arrow-box {
   position: relative;
-  /*z-index: 0;*/
 }
 
 .arrow {
@@ -38,6 +37,11 @@ html {
 .arrow:active {
   transform: rotate(-90deg);
 }
+
+
+/*.read-more {*/
+/*  z-index: -2;*/
+/*}*/
 
 /* title side bars */
 
@@ -361,6 +365,7 @@ html {
   height: auto;
 }
 
+
 .read-more {
   padding-top: 10px;
   text-align: center;
@@ -402,14 +407,12 @@ html {
 
   .project-item {
     width: 100%;
-    background-color: #ffffff;
     margin: 15px 0;
   }
 
   .project-panel .language p {
     font-size: 0.7rem;
   }
-
 }
 
 /* about me */
