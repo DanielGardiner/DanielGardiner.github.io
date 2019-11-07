@@ -16,6 +16,11 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "icon";
+  src: url("media/icomoon.woff") format('woff');
+}
+
 /* title side bars */
 
 .side-borders:before, .side-borders:after {
@@ -350,11 +355,11 @@ html {
 }
 
 .arrow {
+  font-family: icon;
   color: teal;
   position: absolute;
-  top: 3px;
+  top: 0;
   left: 4px;
-  font-weight: bolder;
   transition-property: transform;
   transition-duration: 1s;
   font-size: 0.7rem;
@@ -607,3 +612,4 @@ footer p {
     padding-top: 30px;
   }
 }
+
