@@ -349,6 +349,12 @@ html {
   cursor: pointer;
 }
 
+.read-more-text-emphasize {
+  color: #ba0000;
+  font-weight: bolder;
+  /*font-style: italic;*/
+}
+
 .dropdown-section {
   display: none;
 }
