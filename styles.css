@@ -237,7 +237,6 @@ html {
 }
 
 .project-panel .languages {
-
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -245,20 +244,23 @@ html {
   width: 100%;
 }
 
-.project-panel .language {
-  margin: 4px 4px;
-  color: #ffffff;
-  font-weight: bold;
+.language {
+  padding: 0.5rem 0.5rem !important;
+  border-radius: 9999px !important;
   background-color: #75a6bf;
-  border-radius: 5px;
-  border: 1px solid rgba(108, 108, 108, 0.99);
-  box-shadow: 3px 4px #adadad;
+  /*border: 1px solid #000000;*/
+  /*border-radius: 40%;*/
+  margin: 2px 2px;
+  color: white;
+  height: 30px;
+  line-height: 20px;
 }
 
 .project-panel .language p {
   vertical-align: middle;
-  line-height: 10px;
-  padding: 5px;
+  line-height: 5px;
+  padding: 4px;
+  height: 20px;
 }
 
 .project-panel .heading {
