@@ -86,7 +86,7 @@ html {
 .landing-panel .content {
   margin: 0 auto;
   font-size: 2.4vw;
-  color: white;
+  color: #ffffff;
   text-align: left;
   width: 45%;
   overflow: auto;
@@ -122,7 +122,7 @@ html {
 
   .landing-panel a {
     font-size: 2.5vw;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
   }
 }
 
@@ -356,7 +356,7 @@ html {
 
 .arrow {
   font-family: icon;
-  color: teal;
+  color: #008080;
   position: absolute;
   top: 0;
   left: 4px;
@@ -416,7 +416,7 @@ html {
 
 .about-me .container {
   margin: 30px auto 0 auto;
-  width: 70%;
+  width: 80%;
 }
 
 .about-me h3 {
@@ -424,11 +424,32 @@ html {
   margin: 40px 0;
 }
 
+.about-me h6 {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #800080;
+  font-weight: bolder;
+  margin: 30px 0;
+}
+
 .about-me p {
   font-size: 1rem;
   width: 80%;
-  margin: 0 auto;
   line-height: 2.3;
+  text-align: left;
+}
+
+.about-me .bullet {
+  margin-bottom: 30px;
+}
+
+.about-me img {
+  width: 25%;
+  height: auto;
+  border-radius: 100%;
+  border: 2px solid #2c2c2c;
+  margin: 0 auto;
+  float: right;
 }
 
 @media (max-width: 1080px) {
@@ -436,6 +457,40 @@ html {
     width: 100%;
   }
 }
+
+@media (max-width: 850px) {
+  .about-me p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .about-me img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .about-me h6 {
+    font-size: 0.9rem;
+  }
+
+  .about-me p {
+    font-size: 0.7rem;
+  }
+
+  .about-me img {
+    width: 45%;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-me img {
+    width: 60%;
+  }
+}
+
+
 
 /* hire me */
 
@@ -463,7 +518,7 @@ html {
 
 .hire-icon {
   font-family: icon;
-  color: black;
+  color: #000000;
   font-size: 3rem;
   text-align: center;
   margin: 0 auto;
