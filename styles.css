@@ -477,10 +477,10 @@ html {
 }
 
 .about-me img {
-  width: 25%;
+  width: 27%;
   height: auto;
   border-radius: 100%;
-  border: 2px solid #2c2c2c;
+  border: 2px solid #000000;
   margin: 0 auto;
   float: right;
 }
@@ -513,13 +513,19 @@ html {
   }
 
   .about-me img {
-    width: 45%;
+    width: 48%;
   }
 }
 
 @media (max-width: 450px) {
   .about-me img {
-    width: 60%;
+    width: 70%;
+  }
+}
+
+@media (max-width: 350px) {
+  .about-me img {
+    width: 80%;
   }
 }
 
