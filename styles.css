@@ -462,7 +462,7 @@ html {
   font-size: 1.1rem;
   color: #800080;
   font-weight: bolder;
-  margin: 30px 0;
+  margin: 10px 0 30px 0;
 }
 
 .about-me p {
@@ -470,6 +470,11 @@ html {
   width: 80%;
   line-height: 2.3;
   text-align: left;
+}
+
+.about-me-highlight {
+  color: purple;
+  font-weight: bolder;
 }
 
 .about-me .bullet {
