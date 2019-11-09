@@ -199,10 +199,31 @@ html {
     width: 90%;
   }
 
+  .welcome-text p {
+    font-size: 1rem;
+  }
+
   #quote-img {
     width: 30px;
   }
 }
+
+@media (max-width: 450px) {
+  .welcome-text .container {
+    padding: 60px 0 20px 0;
+  }
+
+  .welcome-text p {
+    font-size: 0.7rem;
+  }
+
+  #quote-img {
+    width: 20px;
+  }
+}
+
+
+
 
 /* project panel */
 
@@ -405,7 +426,19 @@ html {
   .project-panel .language p {
     font-size: 0.7rem;
   }
+
+  .project-panel p {
+    font-size: 0.8rem;
+  }
 }
+
+@media (max-width: 500px) {
+  .project-panel p {
+    font-size: 0.7rem;
+  }
+}
+
+
 
 /* about me */
 
