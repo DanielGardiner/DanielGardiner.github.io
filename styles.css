@@ -462,14 +462,19 @@ html {
   font-size: 1.1rem;
   color: #800080;
   font-weight: bolder;
-  margin: 30px 0;
+  margin: 10px 0 30px 0;
 }
 
 .about-me p {
-  font-size: 1rem;
-  width: 80%;
+  font-size: 0.9rem;
+  width: 85%;
   line-height: 2.3;
   text-align: left;
+}
+
+.about-me-highlight {
+  color: purple;
+  font-weight: bolder;
 }
 
 .about-me .bullet {
@@ -675,8 +680,8 @@ html {
 /* footer */
 
 footer {
-  background-color: #b4b4b4;
-  border-top: 1px solid #666666;
+  background-color: #e2e2e2;
+  border-top: 1px solid #bbbbbb;
 }
 
 footer .container {
