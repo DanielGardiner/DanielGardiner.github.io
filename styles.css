@@ -613,7 +613,7 @@ html {
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 600px) {
     .hire-item p {
         font-size: 0.6rem;
     }
