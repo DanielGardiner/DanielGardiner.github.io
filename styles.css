@@ -618,35 +618,6 @@ html {
     }
 }
 
-/* skills */
-
-.skills-panel .container {
-  margin: 30px auto 0 auto;
-  width: 70%;
-}
-
-.skills-panel h3 {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.skills-layout {
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
-
-.skills-item {
-  padding: 0 20px 50px 20px;
-}
-
-.skills-item img {
-  height: 50px;
-  width: auto;
-}
-
 .bounce {
   animation-name: bounceAnimation;
   animation-duration: 3s;
@@ -679,22 +650,8 @@ html {
 /* footer */
 
 footer {
+  margin-top: 70px;
   background-color: #e2e2e2;
   border-top: 1px solid #bbbbbb;
-}
-
-footer .container {
-  height: 60px;
-  width: 70%;
-  margin: 0 auto;
-}
-
-footer p {
-  padding-top: 30px;
-}
-
-@media (max-width: 610px) {
-  footer p {
-    padding-top: 30px;
-  }
+  height: 70px;
 }
