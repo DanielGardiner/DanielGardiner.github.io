@@ -299,6 +299,11 @@ html {
   line-height: 1.5;
 }
 
+.project-panel .highlight {
+  font-weight: bolder;
+  color: #800080;
+}
+
 .project-panel .description {
   width: 100%;
   padding: 15px 10px 0 10px;
@@ -400,6 +405,10 @@ html {
 }
 
 #proj3-item img {
+  border: 1px solid #000000;
+}
+
+#proj5-item img {
     border: 1px solid #000000;
 }
 
