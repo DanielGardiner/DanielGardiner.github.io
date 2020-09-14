@@ -240,8 +240,8 @@ html {
 }
 
 .project-item {
-  width: 30%;
-  margin: 10px;
+  width: 40%;
+  margin: 10px 20px;
   position: relative;
   overflow: hidden;
 }
@@ -402,10 +402,12 @@ html {
 
 #proj2-item img {
   border: 1px solid #000000;
+  border-radius: 3px;
 }
 
 #proj3-item img {
   border: 1px solid #000000;
+  border-radius: 3px;
 }
 
 #proj5-item img {
@@ -418,10 +420,20 @@ html {
   }
 }
 
-@media (max-width: 750px) {
-  .project-layout {
-    width: 100%;
+@media (max-width: 1000px) {
+  .project-item {
+    width: 42%;
   }
+}
+
+@media (max-width: 900px) {
+  .project-item {
+    width: 40%;
+  }
+}
+
+@media (max-width: 750px) {
+
 
   .project-panel .container {
     width: 100%;
