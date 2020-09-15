@@ -294,10 +294,6 @@ html {
   font-weight: lighter;
 }
 
-.project-panel img {
-  width: 100%;
-}
-
 .project-panel p {
   font-size: 0.9rem;
   margin-top: 0;
@@ -406,19 +402,11 @@ html {
   display: none;
 }
 
-#proj2-item img {
+.project-item img {
   border: 1px solid #000000;
   border-radius: 3px;
 }
 
-#proj3-item img {
-  border: 1px solid #000000;
-  border-radius: 3px;
-}
-
-#proj5-item img {
-    border: 1px solid #000000;
-}
 
 @media (max-width: 1100px) {
   .project-item {
