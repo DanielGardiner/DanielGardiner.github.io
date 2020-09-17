@@ -23,7 +23,7 @@ html {
 
 /* title side bars */
 
-.side-borders:before, .side-borders:after {
+ .side-borders:before, .side-borders:after {
   content:'';
   width:20%;
   margin: 0 10px;
@@ -32,13 +32,13 @@ html {
   vertical-align:middle;
 }
 
-.side-borders:before {
+/* .side-borders:before {
   margin-left:-100%;
 }
 
 .side-borders:after {
   margin-right:-100%;
-}
+}  */
 
 /* nav bar */
 
