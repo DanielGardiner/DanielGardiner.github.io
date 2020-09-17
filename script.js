@@ -34,6 +34,13 @@ $(function() {
         $('#proj6-hover').slideToggle(400)
     })
 
+    $('#hover-container-proj7').hover(function () {
+        $('#proj7-hover').slideToggle(400)
+    })
+    $('#hover-container-proj8').hover(function () {
+        $('#proj8-hover').slideToggle(400)
+    })
+
     $('#dropdown-button-proj1').click(function () {
         $('#dropdown-section-proj1').slideToggle(500)
         if ($('#proj1-arrow').css("transform") == 'none'){
@@ -85,6 +92,22 @@ $(function() {
             $('#proj6-arrow').css("transform", "rotate(180deg)")
         } else {
             $('#proj6-arrow').css("transform", "")
+        }
+    })
+    $('#dropdown-button-proj7').click(function () {
+        $('#dropdown-section-proj7').slideToggle(500)
+        if ($('#proj7-arrow').css("transform") == 'none'){
+            $('#proj7-arrow').css("transform", "rotate(180deg)")
+        } else {
+            $('#proj7-arrow').css("transform", "")
+        }
+    })
+    $('#dropdown-button-proj8').click(function () {
+        $('#dropdown-section-proj8').slideToggle(500)
+        if ($('#proj8-arrow').css("transform") == 'none'){
+            $('#proj8-arrow').css("transform", "rotate(180deg)")
+        } else {
+            $('#proj8-arrow').css("transform", "")
         }
     })
 })
